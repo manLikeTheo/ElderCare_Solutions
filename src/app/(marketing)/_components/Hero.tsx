@@ -5,11 +5,12 @@ import Image from "next/image";
 import heart_image from "../../../../public/Fitness Project/heart.png";
 import hero_image_back from "../../../../public/Fitness Project/hero_image_back.png";
 import hero_image from "../../../../public/Fitness Project/hero_image.png";
+import calories from "../../../../public/Fitness Project/calories.png";
 
 const Hero = () => {
   return (
-    <div className="flex justify-between">
-      <div className="left-h flex-[3] p-6">
+    <div className="flex justify-between ">
+      <div className="left-h flex-[3] p-6 bg-slate-500">
         <Header />
         {/* The best place to find seniors care */}
         <div className="hero-title mt-16 rounded-3xl bg-gray-500 px-3 py-5 w-fit text-white text-lg font-semibold uppercase relative flex items-center justify-start">
@@ -63,7 +64,7 @@ const Hero = () => {
         </div>
       </div>
       <div className="right-h flex-[1] relative bg-amber-600">
-        <Button className="btn rounded-md bg-amber-500 py-5 font-semibold text-lg absolute text-white top-10 right-10">
+        <Button className="btn rounded-md bg-white px-4 py-6 font-semibold text-xl absolute text-amber-600 top-10 right-10">
           Join Now
         </Button>
         <div className="heart-rate flex flex-col bg-gray-500 w-fit p-3 gap-2 items-start rounded-md absolute top-24 right-10">
@@ -73,14 +74,14 @@ const Hero = () => {
         </div>
         {/* hero images */}
         <Image
-          className="absolute bottom-20 right-20 w-[20rem]"
+          className="absolute top-20 right-20 w-[20rem]"
           src={hero_image}
           alt="hero"
         />
         {/* <Image
           src={hero_image_back}
           alt="hero"
-          className="hero-image"
+          className="hero-image absolute top-5 right-100 "
           width={600}
           height={600}
         /> */}

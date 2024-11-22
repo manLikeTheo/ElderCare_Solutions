@@ -6,7 +6,15 @@ body {
   font-family: Arial, Helvetica, sans-serif;
 }
 
-@layer base {
+@layer utilities {
+  .stroke-text {
+    color: transparent;
+    font-family: Arial, Helvetica, sans-serif;
+    -webkit-text-stroke-width: 2px;
+    -webkit-text-stroke-color: white;
+  }
+}
+/* @layer base {
   :root {
     --background: 0 0% 100%;
     --foreground: 0 0% 3.9%;
@@ -69,4 +77,4 @@ body {
   body {
     @apply bg-background text-foreground;
   }
-}
+} */
