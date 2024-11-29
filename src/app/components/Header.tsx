@@ -4,7 +4,7 @@ import React from "react";
 // import logo from "../../../../public/care2Age logo png.png";
 const Header = () => {
   return (
-    <div className="flex justify-between items-center px-8 bg-transparent shadow-lg shadow-slate-600">
+    <div className="flex justify-between items-center px-8 bg-slate-500 shadow-xl shadow-slate-600 border-b-2 border-slate-400">
       {/* Logo */}
       <Link href={`/`} className="hover:scale-95">
         <Image
@@ -18,7 +18,11 @@ const Header = () => {
         <Link href={`/`} className="font-bold text-2xl hover:scale-95">
           Home
         </Link>
-        <Link href={`/services`} className="font-bold text-2xl hover:scale-95">
+        <Link
+          href={`/solutions
+        `}
+          className="font-bold text-2xl hover:scale-95"
+        >
           Solutions
         </Link>
         <Link href={`/about`} className="font-bold text-2xl hover:scale-95">

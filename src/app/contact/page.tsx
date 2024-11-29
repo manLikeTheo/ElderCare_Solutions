@@ -6,7 +6,7 @@ function Contact_Us() {
     <section className=" px-6 py-12  bg-slate-300">
       <div className="container mx-auto flex flex-col items-center">
         <h1 className="text-4xl font-bold mb-6">Get in Touch</h1>
-        <p className="text-xl mb-12 text-center">
+        <p className="text-2xl font-semibold mb-12 text-center">
           We would love to hear from you! Whether you have questions,
           suggestions, or need assistance, feel free to reach out to us.
         </p>
@@ -87,9 +87,7 @@ function Contact_Us() {
 
         {/* Optional Map (using a placeholder here) */}
         <div className="map mt-12 w-full max-w-lg">
-          <h2 className="text-2xl font-semibold text-center mb-4">
-            Find Us Here
-          </h2>
+          <h2 className="text-xl text-center mb-4">Find Us Here</h2>
           <div className="w-full h-64 bg-gray-200 flex items-center justify-center">
             <p className="text-center text-gray-600">Map Placeholder</p>
           </div>
