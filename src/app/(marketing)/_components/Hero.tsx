@@ -1,42 +1,74 @@
 import React from "react";
-import Header from "./Header";
+import Header from "../../components/Header";
 import { Button } from "@/components/ui/button";
 import Image from "next/image";
 import heart_image from "../../../../public/Fitness Project/heart.png";
 import hero_image_back from "../../../../public/Fitness Project/hero_image_back.png";
 import hero_image from "../../../../public/Fitness Project/hero_image.png";
 import calories from "../../../../public/Fitness Project/calories.png";
+import african_elderly from "../../../../public/images/african_elderly.png";
 
 const Hero = () => {
   return (
     <div className="flex justify-between ">
       <div className="left-h flex-[3] pb-10">
-        <Header />
-        <div className="px-10">
-          {/* The best place to find seniors care */}
-          <div className="hero-title mt-16 rounded-3xl bg-gray-500 px-3 py-5 w-fit text-white text-lg font-semibold uppercase relative flex items-center justify-start">
+        {/* <Header /> */}
+        <div className="px-10 ">
+          <div className="hero-title mt-10 rounded-3xl bg-gray-500 px-3 py-6 w-fit text-white text-lg font-semibold uppercase relative flex items-center justify-start">
             <div className="sliding text absolute bg-amber-500 w-24 h-[80%] left-1 rounded-3xl z-[1]"></div>
-            <span className="z-[2]">The best place to find seniors care</span>
+            <span className="z-[2]">The best place to find elder care</span>
           </div>
           {/* hero heading */}
-          <div className="hero-text text-5xl font-bold flex-col gap-6 uppercase text-white overflow-inherit pt-8">
-            <div className="hero-heading flex flex-col gap-2">
+          <div className="hero-text text-5xl font-bold flex-col gap-6 uppercase text-white overflow-inherit pt-3">
+            <div className="hero-heading flex flex-col gap-2 pb-5">
               <div className="">
-                <span>Care For Your </span>
-                <span>Seniors </span>
+                <span>Empowering Seniors </span>
+                <span>with </span>
               </div>
               <div className="">
-                <span> Wherever You Are!</span>
+                <span className="text-amber-400 tracking-wider"> AgeBuddy</span>
               </div>
-              <p className="text-[18px] text-amber-500 tracking-wider italic capitalize">
-                - Because Distance Shouldn’t Mean Disconnection
+              <p className="text-[18px] text-amber-500 tracking-wider italic capitalize py-2">
+                - Compassionate, Innovative, and Affordable Solutions for Better
+                Living
               </p>
             </div>
-            <div className="text-lg font-semibold spacing-wide w-[80%] capitalize pt-5">
-              <p>
-                Find the right care for your loved one. We've got you covered!
+            <div className="text-[18px] w-[70%] capitalize flex flex-col iems-justify gap-2 font-semibold line-clamp-2 tracking-wide *:py-1">
+              <p className="flex gap-3">
+                Instant Access to Senior Care Assistance at Your Fingertips
+                {/* <span className="font-bold">Holistic Care Solutions:</span>
+                Offering practical, emotional, and social support for seniors. */}
+              </p>
+              <p className=" flex gap-3">
+                A trusted digital companion for seniors and their families.
+                {/* <span className="font-bold">Empowering Digital Inclusion:</span>
+                Helping seniors confidently embrace technology. */}
+              </p>
+              <p className="flex gap-3">
+                Enjoy curated health, travel, and lifestyle perks for seniors.
+                {/* <span className="font-bold">Stress-Free Living:</span>
+                {"  "}
+                Simplified services for everyday senior needs, from digital
+                assistance to lifestyle perks. */}
               </p>
             </div>
+            {/* <div className="text-lg font-semibold spacing-wide w-[80%] capitalize pt-2">
+              <p className="tracking-wider text-xl pb-4">
+                Transforming senior care in Nigeria with digital tools and
+                personal touch.
+              </p>
+            </div> */}
+            {/* <div className="desc w-[70%] text-left text-[16px]  capitalize flex flex-col iems-center gap-2">
+              <p className="font-bold line-clamp-2 tracking-wide">
+                Ease worries and foster independence for seniors with our
+                trusted, community-driven services.
+              </p>
+              <p className="tracking-wide">
+                Whether combating loneliness, accessing digital tools, or
+                engaging in meaningful activities, Seniors Tribe ensures seniors
+                and their families receive unparalleled support
+              </p>
+            </div> */}
           </div>
           <div
             className="figures flex gap-8 py-6 text-white font-semibold  w-fit"
@@ -78,8 +110,8 @@ const Hero = () => {
         </div>
         {/* hero images */}
         <Image
-          className="absolute top-20 right-20 w-[20rem]"
-          src={hero_image}
+          className="absolute top-20 right-20 object-cover"
+          src={african_elderly}
           alt="hero"
         />
         {/* <Image

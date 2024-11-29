@@ -19,10 +19,10 @@ const Header = () => {
           Home
         </Link>
         <Link href={`/services`} className="font-bold text-2xl hover:scale-95">
-          Services
+          Solutions
         </Link>
-        <Link href={`/why-us`} className="font-bold text-2xl hover:scale-95">
-          Why Us?
+        <Link href={`/about`} className="font-bold text-2xl hover:scale-95">
+          About Us
         </Link>
         <Link href={"/contact"} className="font-bold text-2xl hover:scale-95">
           Contact

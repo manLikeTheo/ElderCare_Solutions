@@ -1,6 +1,6 @@
+import { ReactNode } from "react";
 import Header from "../components/Header";
-
-function MarketingLayout({ children }: { children: React.ReactNode }) {
+function ContactLayout({ children }: { children: ReactNode }) {
   return (
     <div className="mx-auto  bg-slate-500">
       <Header />
@@ -9,4 +9,4 @@ function MarketingLayout({ children }: { children: React.ReactNode }) {
   );
 }
 
-export default MarketingLayout;
+export default ContactLayout;
