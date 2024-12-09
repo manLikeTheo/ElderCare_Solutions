@@ -69,7 +69,7 @@ function Contact_Us() {
           <h2 className="text-2xl font-semibold mb-4">
             Our Contact Information
           </h2>
-          <div className="flex justify-center gap-12">
+          <div className="grid grid-cols-1 md:grid-cols-3 justify-center gap-6 *:shadow-sm text-xl font-semibold">
             <div>
               <h3 className="text-lg font-medium">Email</h3>
               <p>contact@agebuddy.com</p>
