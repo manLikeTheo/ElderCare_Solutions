@@ -3,10 +3,10 @@ import Image from "next/image";
 import { FaCheck, FaCheckCircle } from "react-icons/fa";
 function Benefits() {
   return (
-    <div className="flex justify-between gap-4 text-4xl p-6 bg-stone-100">
+    <div className="grid grid-cols-1 md:grid-cols-2 justify-between gap-4 text-2xl p-6 bg-stone-100">
       <div className=" p-4 flex-[2]">
-        <div className="text-4xl font-semibold text-slate-800 capitalize p-5">
-          <h2 className="text-5xl font-semibold shadow-sm ">
+        <div className="text-3xl font-semibold text-slate-800 capitalize p-5">
+          <h2 className="text-3xl font-semibold shadow-sm ">
             Amazing benefits of the{" "}
           </h2>
           <h2>

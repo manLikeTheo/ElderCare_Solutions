@@ -6,74 +6,109 @@ import {
   FaPhone,
   FaEnvelope,
   FaLocationArrow,
+  FaCopyright,
 } from "react-icons/fa";
 import Link from "next/link";
+import blob_scene_haikei from "../../../public/Startup Website/blob_scene_haikei.png";
 
 function Footer() {
   return (
-    <footer className="bg-blue-900 text-white py-12">
-      <div className="container mx-auto grid grid-cols-1 md:grid-cols-3 gap-8">
+    <footer
+      style={{
+        backgroundImage: `url(${blob_scene_haikei.src})`,
+        backgroundSize: "cover",
+        backgroundPosition: "center",
+      }}
+      className=" text-white py-5 justify-center"
+    >
+      <div className="container mx-auto grid grid-cols-1 md:grid-cols-3 py-4 px-6 gap-8  ">
         {/* Brand Name */}
         <div>
-          <h1 className="text-3xl font-bold bg-gradient-to-r from-pink-500 to-violet-500 bg-clip-text text-transparent">
+          <h1 className="text-6xl font-bold bg-gradient-to-r from-cyan-900 to-violet-900 bg-clip-text text-transparent md:text-4xl">
             AgeBuddy
           </h1>
-          <div className="social Icons flex space-x-6 py-4">
-            <Link href={"#"} className="hover:text-purple-500">
+          <div className="social Icons flex space-x-6 py-4 md:text-4xl">
+            <Link href={"#"} className=" hover:text-indigo-900">
               <FaFacebook size={32} />
             </Link>
-            <Link href={"#"} className="hover:text-purple-500">
+            <Link href={"#"} className="hover:text-indigo-900">
               <FaLinkedin size={32} />
             </Link>
-            <Link href={"#"} className="hover:text-purple-500">
+            <Link href={"#"} className="hover:text-indigo-900">
               <FaTwitter size={32} />
             </Link>
-            <Link href={"#"} className="hover:text-purple-500">
+            <Link href={"#"} className="hover:text-indigo-900">
               <FaFacebook size={32} />
             </Link>
           </div>
         </div>
         {/* Contact Section */}
         <div className="flex flex-col space-y-4">
-          <h2 className="text-2xl font-semibold bg-gradient-to-r from-pink-500 to-violet-500 bg-clip-text text-transparent">
+          <h2 className="text-4xl font-bold bg-gradient-to-r from-violet-200 to-indigo-300 bg-clip-text text-transparent">
             Contact Us
           </h2>
           <a
             href="tel:+2347012345678"
-            className="mt-4 text-xl font-semibold flex items-center gap-4 hover:underline"
+            className="mt-4 text-xl font-semibold flex items-center gap-4 hover:underline hover:scale-105"
           >
             <FaPhone size={20} /> +2347012345678
           </a>
           <a
             href="mailto: support@seniors-tribe.com"
-            className="text-xl font-semibold flex items-center gap-4 hover:underline"
+            className="text-xl font-semibold flex items-center gap-4 hover:underline hover:scale-105"
           >
             <FaEnvelope size={20} /> support@seniors-tribe.com
           </a>
           <a
             href="#"
-            className="text-xl font-semibold flex items-center gap-4 hover:underline"
+            className="text-xl font-semibold flex items-center gap-4 hover:underline hover:scale-105"
           >
             <FaLocationArrow size={20} /> Lagos, Nigeria
           </a>
         </div>
         {/* Solutions Section */}
         <div>
-          <h2 className="text-2xl font-semibold bg-gradient-to-r from-pink-500 to-violet-500 bg-clip-text text-transparent">
+          <h2 className="text-4xl font-bold bg-gradient-to-r from-violet-900 to-indigo-900 bg-clip-text text-transparent">
             Our Product Offerings
           </h2>
-          <ul className="mt-4 space-y-2">
-            <li>📱 Digital Literacy Training</li>
-            <li>🤝 Senior Social Clubs</li>
-            <li>🏥 Elderly Care Packages</li>
-            <li>🌍 Senior-Friendly Adventures</li>
-            <li>📋 Employment for Seniors</li>
+          <ul className="mt-4 space-y-2 *:text-2xl ">
+            <a
+              href="#"
+              className="flex items-center gap-2 hover:underline hover:scale-105"
+            >
+              <FaLocationArrow size={18} /> Digital Literacy Training
+            </a>
+            <a
+              href="#"
+              className="flex items-center gap-2 hover:underline hover:scale-105"
+            >
+              <FaLocationArrow size={18} /> Senior Social Clubs
+            </a>
+            <a
+              href="#"
+              className="flex items-center gap-2 hover:underline hover:scale-105"
+            >
+              <FaLocationArrow size={18} /> Elderly Care Packages
+            </a>
+            <a
+              href="#"
+              className="flex items-center gap-2 hover:underline hover:scale-105"
+            >
+              <FaLocationArrow size={18} /> Senior-Friendly Adventures
+            </a>
+            <a
+              href="#"
+              className="flex items-center gap-2 hover:underline hover:scale-105"
+            >
+              <FaLocationArrow size={18} /> Employment for Seniors
+            </a>
           </ul>
         </div>
       </div>
-      <div className="border-t border-gray-700 mt-10 pt-4 text-center">
-        <p className="text-md font-semibold p-2 tracking-wide">
-          &copy; {new Date().getFullYear()} Seniors Tribe. All rights reserved.
+      <div className="border-t border-gray-700 mt-10 pt-4 text-center text-xl">
+        <p className="flex justify-center gap-2 items-center">
+          <FaCopyright size={20} />
+          {new Date().getFullYear()} Seniors Tribe. All rights reserved.
         </p>
       </div>
     </footer>

@@ -1,12 +1,12 @@
 import Image from "next/image";
 function WhyPeopleLove() {
   return (
-    <div className="flex flex-col justify-center py-4 bg-slate-500">
-      <h1 className="text-5xl font-bold text-slate-100 capitalize text-center py-6">
+    <div className="flex flex-col justify-center py-4 bg-stone-200">
+      <h1 className="text-5xl font-bold text-stone-900 capitalize text-center py-6">
         Why People Love AgeBuddy
       </h1>
-      <div className=" p-3 grid grid-cols-3 gap-12 items-center justify-around *:rounded-3xl *:bg-transparent *:border-4">
-        <div className="flex flex-col  p-4 text-center justify-center">
+      <div className=" p-3 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-12 items-center *:rounded-3xl *:bg-transparent *:border-4">
+        <div className="flex flex-col  p-4 text-center justify-center border-4 border-slate-800">
           <Image
             src="/Startup Website/4901932.jpg"
             alt={"global"}
@@ -14,10 +14,10 @@ function WhyPeopleLove() {
             height={400}
             className="p-1"
           />
-          <h2 className="font-bold text-3xl text-slate-100 py-3">
+          <h2 className="font-bold text-3xl text-slate-900 py-3">
             Simplified Senior Care
           </h2>
-          <div className="text-slate-100 text-left">
+          <div className="text-slate-900 text-left">
             <p className="text-md font-semibold">
               <span className="font-bold text-xl">
                 {" "}
@@ -35,7 +35,7 @@ function WhyPeopleLove() {
             </p>
           </div>
         </div>
-        <div className="flex flex-col p-4 text-center  justify-center">
+        <div className="flex flex-col p-4 text-center  justify-center border-4 border-slate-800">
           <Image
             src="/Startup Website/icons8-peace-of-mind-64.png"
             alt={"global"}
@@ -43,10 +43,10 @@ function WhyPeopleLove() {
             height={400}
             className="p-2"
           />
-          <h2 className="font-bold text-3xl text-slate-100 py-3">
+          <h2 className="font-bold text-3xl text-slate-900 py-3">
             Peace of Mind for Families
           </h2>
-          <div className="text-slate-100 text-left">
+          <div className="text-slate-900 text-left">
             <p className="text-md font-semibold">
               <span className="font-semibold text-xl">
                 Reliable Caregivers:{" "}
@@ -63,7 +63,7 @@ function WhyPeopleLove() {
             </p>
           </div>
         </div>
-        <div className="flex flex-col  p-4 text-center  justify-center">
+        <div className="flex flex-col  p-4 text-center item justify-center border-4 border-slate-800">
           <Image
             src="/Startup Website/icons8-peace-of-mind-64.png"
             alt={"global"}
@@ -71,10 +71,10 @@ function WhyPeopleLove() {
             height={400}
             className="p-2"
           />
-          <h2 className="font-bold text-3xl text-slate-100 py-3">
+          <h2 className="font-bold text-3xl text-slate-900 py-3">
             Holistic Aging Solutions
           </h2>
-          <div className="text-slate-100 text-left">
+          <div className="text-slate-900 text-left">
             <p className="text-md font-semibold">
               <span className="font-semibold text-xl">Digital Companion: </span>
               A platform designed for seniors that enhances social interaction,

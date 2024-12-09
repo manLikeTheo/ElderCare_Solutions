@@ -3,7 +3,7 @@ import React from "react";
 
 function Contact_Us() {
   return (
-    <section className=" px-6 py-12  bg-slate-300">
+    <section className="px-6 py-12  bg-slate-300">
       <div className="container mx-auto flex flex-col items-center">
         <h1 className="text-4xl font-bold mb-6">Get in Touch</h1>
         <p className="text-2xl font-semibold mb-12 text-center">
@@ -58,7 +58,7 @@ function Contact_Us() {
           </div>
           <Button
             type="submit"
-            className="w-full py-3 bg-blue-500 text-white hover:bg-blue-600 font-semibold rounded-xl text-xl"
+            className="w-full py-3 bg-indigo-600 text-white hover:bg-indigo-500 font-semibold rounded-xl text-xl"
           >
             Send Message
           </Button>

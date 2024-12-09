@@ -19,7 +19,7 @@ const IconRenderer: React.FC<IconRendererProps> = ({ icon, className }) => {
     );
   }
   return (
-    <FontAwesomeIcon icon={icon} className={className} width={48} height={48} />
+    <FontAwesomeIcon icon={icon} className={className} width={52} height={52} />
   );
 };
 export default IconRenderer;

@@ -8,9 +8,9 @@ function Programs() {
           className="text-5xl font-bold mb-6 uppercase stroke-text shadow-sm"
           style={{ textShadow: "6px 3px 16px rgba(0, 0, 0, 0.6)" }}
         >
-          Our Product Offerings
+          What We Offer
         </h1>
-        <div className="flex justify-center gap-6 py-6">
+        <div className="grid grid-cols-1 md:grid-cols-2 justify-center gap-6 py-6">
           {productOfferings.map((productOffering, index) => (
             <ProgramCard key={index} productOffering={productOffering} />
           ))}

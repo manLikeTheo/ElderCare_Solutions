@@ -15,33 +15,34 @@ export interface ProductOffering {
 
 export const productOfferings: ProductOffering[] = [
   {
-    icon: faDumbbell, // Replace with FontAwesome icon
+    icon: faDumbbell,
     heading: "Digital Companion App",
     details:
-      "Your one-stop solution for staying healthy, engaged and connected. Our app offers a wide range of features to help you age gracefully.",
+      "A Senior-friendly mobile platform designed specifically for Nigerian seniors, offering wellness tips, community connections, and direct access to essential care services.",
   },
   {
-    icon: faAppleAlt, // Replace with FontAwesome icon
-    heading: "Comprehensive Senior Care Kits",
+    icon: faAppleAlt,
+    heading: "Senior Care Kits",
     details:
-      "All-in-one package designed to support physical and mental well-being. Our kits include essential products to support aging seniors.",
+      "A carefully curated package of essential safety and comfort items, including anti-slip aids, health trackers, emergency tools, and personalized support resources.",
   },
   {
-    icon: faBrain, // Replace with FontAwesome icon
-    heading: "Personalized Assistance",
+    icon: faBrain,
+    heading: "Localized Support Services",
     details:
-      "Verified Helpers: Local trusted Support for everyday needs. Our personalized assistance ensures you receive the care you need, when you need it.",
+      "A vetted network of trusted local helpers providing on-demand assistance for daily living, from home maintenance to personal care, tailored to Nigerian seniors' specific needs.",
   },
-  //   {
-  //     icon: faPeopleGroup, // Replace with FontAwesome icon
-  //     heading: "Social Engagement",
-  //     details:
-  //       "Engage with a community of like-minded individuals. Our social engagement programs help foster connections and reduce feelings of loneliness.",
-  //   },
-  //   {
-  //     icon: faWallet, // Replace with FontAwesome icon
-  //     heading: "Financial Literacy",
-  //     details:
-  //       "Improve your financial knowledge and learn how to manage your finances effectively. Our sessions provide you with the skills to make informed decisions.",
-  //   },
+
+  {
+    icon: faPeopleGroup,
+    heading: "Social Engagement",
+    details:
+      "Interactive virtual and local programs designed to combat social isolation, featuring interest-based groups, skill-sharing workshops, and meaningful social interactions for seniors.",
+  },
+  {
+    icon: faWallet,
+    heading: "Senior-Focused Care Management",
+    details:
+      "A comprehensive support system connecting seniors, families, and caregivers through real-time updates, emergency response, and coordinated care management.",
+  },
 ];
