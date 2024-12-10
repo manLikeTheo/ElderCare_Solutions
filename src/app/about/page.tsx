@@ -1,8 +1,8 @@
 import Image from "next/image";
 import african_elderly from "../../../public/images/african_elderly.png";
 import Senior_Citizen from "../../../public/images/Senior_Citizen.png";
-import blob_scene_haikei from "../../../public/Startup Website/blob_scene_haikei.png";
 import eldercare from "../../../public/Startup Website/eldercare.jpg";
+import nigeria_healthcare_crisis from "../../../public/Startup Website/nigeria_healthcare_crisis.png";
 function About_Us() {
   return (
     <div className="">
@@ -128,9 +128,13 @@ function About_Us() {
               autonomy.
             </p>
           </div>
-          <div className="image py-0 rounded-2xl w-[480px] h-[480px] bg-violet-800 text-center object-cover text-4xl items-center">
-            Image
-          </div>
+          <Image
+            className="rounded-3xl  w-fit h-auto"
+            src={nigeria_healthcare_crisis}
+            alt="nigeria healthcare crisis"
+            width={640}
+            height={640}
+          />
         </div>
 
         <div className="agebuddy-difference mt-10 py-6 *:pb-8 border-b-4 ">

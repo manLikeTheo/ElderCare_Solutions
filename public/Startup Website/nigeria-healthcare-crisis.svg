@@ -1,0 +1,105 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 800">
+  <!-- Soft Background -->
+  <defs>
+    <linearGradient id="crisis-gradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#f5f5f5;stop-opacity:0.8" />
+      <stop offset="100%" style="stop-color:#e9ecef;stop-opacity:0.8" />
+    </linearGradient>
+    
+    <!-- Broken System Overlay -->
+    <pattern id="broken-pattern" patternUnits="userSpaceOnUse" width="20" height="20">
+      <path d="M0,0 L10,10 M10,0 L0,10" stroke="#d3d3d3" stroke-width="2" opacity="0.2"/>
+    </pattern>
+  </defs>
+  
+  <rect width="1200" height="800" fill="url(#crisis-gradient)"/>
+  <rect width="1200" height="800" fill="url(#broken-pattern)" opacity="0.3"/>
+  
+  <!-- Dramatic Title -->
+  <text x="600" y="80" text-anchor="middle" font-size="62" fill="#1c2331" 
+        style="font-weight: 900; text-transform: uppercase;">
+    NIGERIA'S SILENT CRISIS
+  </text>
+  <text x="600" y="140" text-anchor="middle" font-size="42" fill="#2c3e50" 
+        style="font-weight: bold;">
+    Abandoned: The Forgotten Senior Generation
+  </text>
+  
+  <!-- Crisis Indicators -->
+  <g transform="translate(100 200)">
+    <!-- Demographic Challenge -->
+    <g transform="translate(0 0)">
+      <text x="300" y="50" text-anchor="middle" font-size="36" fill="#1c2331" font-weight="bold">
+        DEMOGRAPHIC SURGE
+      </text>
+      <text x="300" y="100" text-anchor="middle" font-size="28" fill="#34495e">
+        10.2 million seniors in 2022
+      </text>
+      <text x="300" y="140" text-anchor="middle" font-size="24" fill="#34495e">
+        Projected 28.9 million by 2030
+      </text>
+      <path d="M0 0 L600 0" 
+            fill="none" stroke="#2c7fb8" stroke-width="10" stroke-dasharray="20,10"/>
+    </g>
+    
+    <!-- Family Care Breakdown -->
+    <g transform="translate(0 200)">
+      <text x="300" y="50" text-anchor="middle" font-size="36" fill="#1c2331" font-weight="bold">
+        FAMILY CARE COLLAPSE
+      </text>
+      <text x="300" y="100" text-anchor="middle" font-size="28" fill="#34495e">
+        90% of care provided by family
+      </text>
+      <text x="300" y="140" text-anchor="middle" font-size="24" fill="#34495e">
+        "Japa" Syndrome Disrupting Traditional Care
+      </text>
+      <path d="M0 0 L600 0" 
+            fill="none" stroke="#e67e22" stroke-width="10" stroke-dasharray="20,10"/>
+    </g>
+    
+    <!-- Geriatric Care Shortage -->
+    <g transform="translate(0 400)">
+      <text x="300" y="50" text-anchor="middle" font-size="36" fill="#1c2331" font-weight="bold">
+        GERIATRIC CARE SHORTAGE
+      </text>
+      <text x="300" y="100" text-anchor="middle" font-size="28" fill="#34495e">
+        Less than 0.5% doctors serve elderly
+      </text>
+      <text x="300" y="140" text-anchor="middle" font-size="24" fill="#34495e">
+        Only One Specialized Geriatric Centre
+      </text>
+      <path d="M0 0 L600 0" 
+            fill="none" stroke="#27ae60" stroke-width="10" stroke-dasharray="20,10"/>
+    </g>
+    
+    <!-- Healthcare Accessibility -->
+    <g transform="translate(0 600)">
+      <text x="300" y="50" text-anchor="middle" font-size="36" fill="#1c2331" font-weight="bold">
+        HEALTHCARE INACCESSIBILITY
+      </text>
+      <text x="300" y="100" text-anchor="middle" font-size="28" fill="#34495e">
+        Over 50% Have Unmet Healthcare Needs
+      </text>
+      <text x="300" y="140" text-anchor="middle" font-size="24" fill="#34495e">
+        Lack of Funds Blocks Medical Access
+      </text>
+      <path d="M0 0 L600 0" 
+            fill="none" stroke="#8e44ad" stroke-width="10" stroke-dasharray="20,10"/>
+    </g>
+  </g>
+  
+  <!-- Subtle System Failure Caption -->
+  <text x="1000" y="750" text-anchor="end" font-size="20" fill="#7f8c8d" 
+        style="font-style: italic; opacity: 0.7;">
+    A System That Has Failed Its Most Vulnerable
+  </text>
+  
+  <!-- Call to Action -->
+  <g transform="translate(300 760)">
+    <rect x="0" y="0" width="600" height="40" rx="10" ry="10" 
+          fill="#2980b9" opacity="0.9"/>
+    <text x="300" y="30" text-anchor="middle" font-size="28" fill="white" font-weight="bold">
+      URGENT INTERVENTION NEEDED
+    </text>
+  </g>
+</svg>

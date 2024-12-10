@@ -71,7 +71,7 @@ const Hero = () => {
               </p>
             </div> */}
           </div>
-          <div
+          {/* <div
             className="figures flex justify-center text-center gap-3 lg:gap-8 py-6 text-stone-600 font-semibold  w-fit"
             // style={{ textShadow: "1px 1px 1px #000000" }}
           >
@@ -93,7 +93,7 @@ const Hero = () => {
                 Fitness Programs
               </span>
             </div>
-          </div>
+          </div> */}
 
           {/* hero buttons */}
           <div className="hero-buttons flex  items-center gap-8 mt-5">

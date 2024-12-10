@@ -10,7 +10,7 @@ const HeroSection = ({
   title: string;
   tagline: string;
   description: string;
-  heroImage: any;
+  heroImage?: any;
 }) => {
   const fadeIn = {
     initial: {
@@ -30,10 +30,10 @@ const HeroSection = ({
     <div className="">
       <div className="grid grid-cols-1 place-items-center md:grid-cols-2 lg:grid-cols-2 gap-4 items-center px-1">
         <div className="grid grid-cols-1 place-items-center *:my-3">
-          <h1 className="text-4xl text-center md:text-4xl  lg:text-4xl font-extrabold py-2">
+          <h1 className="text-4xl text-center md:text-4xl capitalize lg:text-4xl font-extrabold py-2">
             {title}
           </h1>
-          <p className="Tagline italic text-lg font-bold lg:text-xl">
+          <p className="Tagline text-pretty text-center italic text-lg font-bold lg:text-xl">
             {tagline}
           </p>
           <p className="description text-xl font-semibold text-center py-1 lg:text-xl">

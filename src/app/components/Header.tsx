@@ -13,7 +13,7 @@ const Header = () => {
   return (
     <nav className="flex group justify-between gap-8 items-center px-8 bg-slate-500 shadow-xl shadow-slate-600 border-b-2 border-slate-400">
       {/* Logo */}
-      <Link href={`/`} className="hover:scale-90">
+      <Link href={`/`} className="hover:scale-90 w-auto h-auto">
         <Image
           src="/care2Age logo png.png"
           alt="logo"
