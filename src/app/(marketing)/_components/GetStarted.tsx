@@ -2,7 +2,7 @@ import React from "react";
 
 const GetStarted = () => {
   return (
-    <div className="py-4 bg-emerald-700 text-center flex flex-col items-center">
+    <div className="py-4  text-center flex flex-col items-center">
       <div className="heading">
         <h1 className="heading text-3xl text-stone-200 font-bold capitalize py-3">
           How to get started

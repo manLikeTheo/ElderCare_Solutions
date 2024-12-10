@@ -4,6 +4,7 @@ import Hero from "./_components/Hero";
 import Programs from "./_components/Programs";
 import WhyPeopleLove from "./_components/WhyPeopleLove";
 import GetStarted from "./_components/GetStarted";
+import JoinOurTeam from "./_components/joinTheTeam";
 export default function Home() {
   return (
     <div className="flex flex-col justify-center bg-stone-100">
@@ -12,6 +13,7 @@ export default function Home() {
       <Benefits />
       <WhyPeopleLove />
       <GetStarted />
+      <JoinOurTeam />
     </div>
   );
 }

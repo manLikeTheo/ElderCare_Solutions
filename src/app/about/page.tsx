@@ -11,11 +11,11 @@ function About_Us() {
       <div className=" bg-stone-100 px-10 py-14 mx-auto flex flex-col">
         <div className="changing-the-narrative  grid grid-cols-1 md:grid-cols-2   items-center gap-12 p-3 border-b-4 border-stone-300">
           <div className="text">
-            <h1 className="text-4xl py-4 font-extrabold">
+            <h2 className="text-4xl py-4 font-extrabold">
               Changing the Narrative
-            </h1>
+            </h2>
             <p className=" text-xl font-medium">
-              <span className="font-bold">AgeBuddy</span> is a mission-driven
+              <span className="font-bold">AgeBuddy</span> is a senior-focused
               social enterprise dedicated to transforming the way we care for
               seniors. Our platform connects families—both within Nigeria and
               across the globe—with local, compassionate caregivers, offering
@@ -47,7 +47,7 @@ function About_Us() {
 
         <div className="your-story mt-10 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2 xl:grid-cols-2 justify-between items-center gap-12 *:py-3 border-b-4 py-4">
           <div className="">
-            <h1 className="text-4xl font-extrabold py-3">We've been there!</h1>
+            <h2 className="text-4xl font-extrabold py-3">We've been there!</h2>
             <p className="tracking-wider text-xl font-medium">
               {" "}
               <b>AgeBuddy</b> was created after recognizing the deep flaws in
@@ -73,11 +73,11 @@ function About_Us() {
           </div>
         </div>
 
-        <div className="broken-system mt-8 mb-4 grid grid-cols-1 lg:grid-cols-2 gap-8 lg:gap-12 items-center py-6">
+        <div className="broken-system mt-8 mb-4 grid grid-cols-1 lg:grid-cols-2 gap-8 lg:gap-12 items-center py-6 border-b-4">
           <div className="text">
-            <h1 className="text-3xl lg:text-4xl font-extrabold">
+            <h2 className="text-3xl lg:text-4xl font-extrabold">
               The Broken System
-            </h1>
+            </h2>
             <p className="text-xl lg:text-xl">
               {" "}
               In Nigeria and many African countries, senior care is still
@@ -108,11 +108,11 @@ function About_Us() {
           </div>
         </div>
 
-        <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 lg:gap-12 items-center place-items-center py-6">
+        <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 lg:gap-12 items-center place-items-center py-6 mt-6  border-b-4">
           <div className="text grid grid-cols-1 lg:grid-cols-2 items-baseline justify-center gap-1">
-            <h1 className="text-4xl font-extrabold py-4">
+            <h2 className="text-4xl font-extrabold py-4">
               Flipping the Script: AgeBuddy's Approach
-            </h1>
+            </h2>
             <p className=" text-xl">
               Rather than accepting the status quo, AgeBuddy has flipped the
               traditional senior care model. We leverage technology to create a
@@ -133,11 +133,11 @@ function About_Us() {
           </div>
         </div>
 
-        <div className="agebuddy-difference mt-10 py-6 *:pb-8">
+        <div className="agebuddy-difference mt-10 py-6 *:pb-8 border-b-4 ">
           <div>
-            <h1 className="text-3x sm:text-4xl font-extrabold py-4">
+            <h2 className="text-3xl lg:text-4xl font-extrabold py-4">
               The AgeBudy Difference
-            </h1>
+            </h2>
             <p className=" text-xl sm:text-2xl lg:text-xl leading-relaxed max-w-3xl">
               <b>For Families:</b> AgeBuddy offers families an easy way to find
               trustworthy local caregivers, ensuring that seniors are receiving
@@ -158,6 +158,69 @@ function About_Us() {
               negatively.
             </p>
           </div>
+        </div>
+
+        <div className="future-of-senior-care mt-10 py-6 border-b-4">
+          <h2 className="heading text-3xl lg:text-4xl font-extrabold py-2 mt-3">
+            The Future of Senior Care
+          </h2>
+          <p className=" text-xl sm:text-2xl lg:text-xl leading-relaxed max-w-3xl">
+            At AgeBuddy, we are more than just a platform—we are a promise. A
+            promise to seniors that they are valued and respected, to families
+            that they are supported and not alone, and to caregivers that their
+            dedication to improving lives is cherished and nurtured. By 2030,{" "}
+            <b>AgeBuddy</b> aims to make a significant impact across Nigeria and
+            Africa by{" "}
+            <b>
+              connecting 1 million seniors with dignified, affordable care and
+              empowering the next generation of compassionate caregivers.
+            </b>{" "}
+            Our goal is not just to provide care,{" "}
+            <b>but to transform the landscape of elder care</b> by creating a
+            future where seniors live with purpose, are supported each step of
+            the aging journey, and maintain their independence and dignity. We
+            envision a world where elder care is no longer just about medical
+            treatment, but about fostering holistic wellbeing—mentally,
+            emotionally, and socially. We are redefining what it means to care
+            for our elders, putting compassion, community, and sustainability at
+            the heart of everything we do.
+          </p>
+        </div>
+
+        <div className="join-the-movement mt-6 py-2 border-b-4">
+          <div className="text">
+            <h2 className="heading text-3xl lg:text-4xl font-extrabold py-2 mt-3">
+              Join the AgeBuddy Movement
+            </h2>
+            <p className=" text-xl sm:text-2xl lg:text-xl leading-relaxed max-w-3xl">
+              AgeBuddy is a growing movement, and we can’t do it alone. Whether
+              you're a family navigating the challenges of senior care, a
+              passionate caregiver, or someone who believes in the dignity of
+              aging, there is a place for you in the AgeBuddy community. By
+              choosing AgeBuddy, you are not just opting for a service. You are
+              taking a stand for a future where every elder receives the care
+              they deserve, where families can support their loved ones from
+              anywhere in the world, and where caregivers are valued as partners
+              in improving the lives of seniors.
+            </p>
+          </div>
+          {/* <Image /> */}
+        </div>
+
+        <div className="support-our-misson mt-6 py-2">
+          <h2 className="heading text-3xl lg:text-4xl font-extrabold py-2 mt-3">
+            {" "}
+            Support Our Mission
+          </h2>
+          <p className=" text-xl sm:text-2xl lg:text-xl leading-relaxed max-w-3xl">
+            Our work would not be possible without the support of individuals
+            and organizations who share our vision. If you know of grants,
+            partnerships, or individuals who are interested in helping us reach
+            our goal of <b>1 million meaningful connections by 2030,</b> we
+            would love to connect with you. Your generosity and support make
+            AgeBuddy’s mission possible and help us build a brighter future for
+            seniors in Nigeria, Africa, and beyond.
+          </p>
         </div>
       </div>
     </div>
