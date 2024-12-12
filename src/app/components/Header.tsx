@@ -11,10 +11,11 @@ const Header = () => {
   const [isDropdownOpen, setIsDropdownOpen] = useState(false);
   const [isMenuOpen, setIsMenuOpen] = useState(false);
   return (
-    <nav className="flex group justify-between gap-8 items-center px-8 bg-slate-500 shadow-xl shadow-slate-600 border-b-2 border-slate-400">
+    <nav className="flex group justify-between gap-8 items-center px-8 bg-sky-700 shadow-lg shadow-slate-300 z-50 relative">
       {/* Logo */}
       <Link href={`/`} className="hover:scale-90 w-auto h-auto">
         <Image
+          className=""
           src="/care2Age logo png.png"
           alt="logo"
           width={250}
@@ -38,7 +39,7 @@ const Header = () => {
                 <FaChevronDown size={24} />
               </Link>
               {isDropdownOpen && (
-                <ul className="absolute solutions-dropdown text-xl p-3 rounded opacity-100 w-[320px] z-100 bg-slate-600 text-slate-100 font-semibold leading-relaxed top-full left-0">
+                <ul className="absolute solutions-dropdown text-xl p-3 rounded opacity-100 w-[320px] z-50 bg-slate-600 text-slate-100 font-semibold leading-relaxed top-full left-0 border-4 border-red-400">
                   {link.dropdown.map((dropdownLink) => (
                     <li
                       key={dropdownLink.href}
@@ -54,7 +55,7 @@ const Header = () => {
             <Link
               href={link.href}
               key={link.href}
-              className="regular-24 font-bold text-gray-50 flexCenter cursor-pointer pb-1.5 transition-all hover:font-bold"
+              className="regular-24 font-bold text-gray-50 flexCenter cursor-pointer pb-1 transition-all hover:font-bold"
             >
               {link.label}
             </Link>

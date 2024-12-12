@@ -7,7 +7,7 @@ interface ProgramCardProps {
 }
 const ProgramCard: React.FC<ProgramCardProps> = ({ productOffering }) => {
   return (
-    <div className="px-8 py-3 bg-amber-400 rounded-xl shadow-md flex-col flex justify-center items-center *:p-1">
+    <div className=" bg-sky-200 rounded-xl shadow-md flex-col flex justify-center items-center py-16 px-10">
       <IconRenderer icon={productOffering.icon} className="mb-4" />
       <h3 className="text-2xl  font-bold tracking-wide text-left">
         {productOffering.heading}

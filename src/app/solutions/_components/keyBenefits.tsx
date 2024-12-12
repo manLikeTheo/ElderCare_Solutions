@@ -3,10 +3,18 @@ interface Benefit {
   heading: string;
   description: string;
 }
-const BenefitsSection = ({ benefits }: { benefits: Benefit[] }) => {
+const BenefitsSection = ({
+  heading,
+  benefits,
+}: {
+  benefits: Benefit[];
+  heading: string;
+}) => {
   return (
-    <section>
-      <h1 className="text-4xl font-bold text-center my-6">Key Benefits</h1>
+    <section className="benefits">
+      <h1 className="text-4xl capitalize font-bold text-center my-6">
+        {heading}
+      </h1>
       <div className="key-benefits grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2 lg:grid-rows-2 gap-6 items-center p-4">
         {benefits.map((benefit, index) => (
           <div

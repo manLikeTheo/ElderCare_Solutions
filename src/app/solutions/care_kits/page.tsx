@@ -8,27 +8,18 @@ import TheProblemSection from "../_components/TheProblemSection";
 const benefits = [
   {
     icon: <FaDumbbell size={75} />,
-    heading: "Enhance Digital Confidence",
-    description:
-      "Interactive tutorials and guided steps built into the app empower seniors to improve their digital literacy, building confidence in navigating technology.",
+    heading: "Enhance Safety",
+    description: "Reduce the risks of slips and falls",
   },
   {
     icon: <FaLightbulb size={75} />,
-    heading: "User-Friendly Design",
-    description:
-      "Interactive tutorials and guided steps built into the app empower seniors to improve their digital literacy, building confidence in navigating technology.",
+    heading: "Simplified Helath Management",
+    description: "Organize medications efficiently",
   },
   {
     icon: <FaLightbulb size={75} />,
-    heading: "Boost Wellness",
-    description:
-      "AgeBuddy provides tailored wellness tips, medication reminders, and activity prompts to help seniors maintain a healthy, active lifestyle. With interactive health tracking, it empowers seniors to take charge of their well-being.",
-  },
-  {
-    icon: <FaLightbulb size={75} />,
-    heading: "Senior-Friendly UserExperience",
-    description:
-      "Built with seniors in mind, AgeBuddy offers a straightforward layout with large icons, intuitive navigation, and accessibility features, ensuring it’s usable by seniors with varying tech comfort levels.",
+    heading: "Peace of Mind",
+    description: "Ensure Seniors and their families feel secure",
   },
 ];
 
@@ -55,37 +46,49 @@ const CareKitsPage = () => {
   return (
     <div className="bg-neutral-50 max-w-container p-3 *:py-2">
       <HeroSection
-        title="Safety, Comfort, and Convenience - All in One Kit"
-        tagline="Stay Connected, Stay Engaged!"
-        description="AgeBuddy is your all-in-one solution for senior wellness and combating loneliness."
+        title="Eldery Care Kits"
+        tagline="Safety, Comfort, and Convenience - All in One Kit"
+        description="The Edlerly Care Kit is your comprehensive solution for enhancing Senior safety, comfort and independence"
         // heroImage={}
       />
-      <TheProblemSection />
+      <TheProblemSection
+        problem="Many Seniors face preventable challenges and injurires with daily
+          tasks, oftten due to a lack of suitable home aids"
+        solution="The Elderlty Care Kit is designed to ensure Seniors' safety, comfort
+          and convenience at home"
+      />
 
       <div className="about my-6 p-3">
         <h2 className="text-4xl font-bold my-4 text-center">
           Safety, Comfort, and Convenience - All in One Kit
         </h2>
-        <p className="text-lg text-center">
-          AgeBuddy is the game-changer in senior care, uniquely designed to
-          bridge the generational divide by offering a seamless, all-in-one
-          digital companion for Nigerian seniors. More than just a platform,
-          AgeBuddy is a digital lifeline that brings together wellness,
-          connectivity, and daily support in an accessible and intuitive way.
-          Developed specifically with the elderly in mind, AgeBuddy transforms
-          the digital experience into one that enhances their quality of life.
-          Whether it’s staying in touch with family and friends, receiving
-          personalized wellness tips, or accessing vital healthcare resources,
-          AgeBuddy ensures that seniors are never alone. Our easy-to-use
-          interface is designed to keep seniors engaged and connected without
-          overwhelming them, allowing for a safe and empowering experience. The
-          platform acts as a friendly companion—always just a tap away—offering
-          reminders, support, and real-time updates, making it easier than ever
-          for seniors to live independently and confidently.
+        <p className="text-lg text-center tracking-wider">
+          At <b className="font-bold text-xl">AgeBuddy, </b> we understand that
+          truly supporting seniors goes beyond digital tools and caregiving
+          connections—it’s about equipping families with practical, everyday
+          solutions that ensure safety, comfort, and independence. That’s why we
+          developed our Elderly Care Kit—a comprehensive, all-in-one package of
+          essential items designed to address the most common challenges seniors
+          face at home. The Elderly Care Kit is thoughtfully curated with items
+          like anti-slip socks for safety, grabber tools for mobility, pill
+          organizers for medication management, and even personal hygiene
+          essentials like bath wipes for convenience. By bundling these tools
+          into a single package, we eliminate the guesswork for families, making
+          it easier for them to provide holistic care for their loved ones. This
+          kit doesn’t just offer practicality—it offers peace of mind. It
+          empowers seniors to navigate their daily lives with dignity and helps
+          families feel confident that their loved ones are supported in every
+          way. Together with our digital platform and caregiving connections,
+          the Elderly Care Kit completes our mission of redefining senior care
+          in Nigeria by addressing emotional, social, and practical needs all at
+          once.
         </p>
       </div>
 
-      <BenefitsSection benefits={benefits} />
+      <BenefitsSection
+        heading="Benefits of using the Elderly Care Kit"
+        benefits={benefits}
+      />
       {/* <HowItWorksSection /> */}
       <FAQSection faqs={faqs} />
     </div>

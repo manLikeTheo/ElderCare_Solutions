@@ -2,7 +2,7 @@ import ProgramCard from "./ProgramCard";
 import { productOfferings } from "@/app/_data/product_offering";
 function Programs() {
   return (
-    <section className="flex flex-col px-6 py-6 gap-4 bg-slate-400">
+    <section className="flex flex-col px-6 py-6 gap-4 bg-sky-700">
       <div className="container mx-auto text-center">
         <h1
           className="text-5xl font-bold mb-6 uppercase stroke-text shadow-sm"

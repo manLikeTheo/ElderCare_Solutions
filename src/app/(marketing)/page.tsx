@@ -8,7 +8,7 @@ import JoinOurTeam from "./_components/joinTheTeam";
 import LandingPage_Hero from "./_components/LandingPage_Hero";
 export default function Home() {
   return (
-    <div className="flex flex-col justify-center bg-stone-100">
+    <div className="flex flex-col justify-center bg-stone-50">
       {/* <Hero /> */}
       <LandingPage_Hero />
       <Programs />
