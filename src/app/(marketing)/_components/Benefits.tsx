@@ -8,10 +8,10 @@ function Benefits() {
         <div className="text-3xl font-semibold text-slate-800 capitalize p-5">
           <h2 className="text-3xl font-semibold">Amazing benefits of the </h2>
           <h2>
-            <span className="text-rose-600 font-extrabold leading-relaxed text-5xl">
-              AgeBuddy
+            <span className="text-rose-700 font-extrabold leading-relaxed text-5xl">
+              WellAged
             </span>{" "}
-            Digital Companion
+            Integrated Solutions
           </h2>
         </div>
         <div className="benefits-list py-8 *:py-3 text-slate-900 font-semibold">

@@ -16,28 +16,28 @@ export interface ProductOffering {
 export const productOfferings: ProductOffering[] = [
   {
     icon: faDumbbell,
-    heading: "Digital Companion App",
+    heading: "WellAged Digital Companion",
     details:
-      "A Senior-friendly mobile platform designed specifically for Nigerian seniors, offering wellness tips, community connections, and direct access to essential care services.",
+      "A Senior-friendly mobile platform designed specifically for Nigerian seniors, that provides age-relevant healtha and wellness guidance, interactive community connections to comabt loneliness and social isolation, and improved digital inclusion",
   },
   {
     icon: faAppleAlt,
     heading: "Senior Care Kits",
     details:
-      "A carefully curated package of essential safety and comfort items, including anti-slip aids, health trackers, emergency tools, and personalized support resources.",
+      "A carefully curated package of essential wellness and safety items, in the personal hygiene, safety & mobility, diet & nutrition categories to help familes support their agind loved ones without the stress of buying these items individually.",
   },
   {
     icon: faBrain,
-    heading: "Localized Support Services",
+    heading: "Community-Powered Care and Support Network",
     details:
-      "A vetted network of trusted local helpers providing on-demand assistance for daily living, from home maintenance to personal care, tailored to Nigerian seniors' specific needs.",
+      "A trusted service that connects families - especially non-resident Nigerians - with vetted and trained care and support professionals for caregiving, errands and other daily support needs, on-demand.",
   },
 
   {
     icon: faPeopleGroup,
     heading: "Social Engagement",
     details:
-      "Interactive virtual and local programs designed to combat social isolation, featuring interest-based groups, skill-sharing workshops, and meaningful social interactions for seniors.",
+      "Interactive virtual and local programs designed to combat social isolation, featuring interest-based groups, skill-sharing workshops, post-retirement trainings, and meaningful social interactions for seniors.",
   },
   {
     icon: faWallet,

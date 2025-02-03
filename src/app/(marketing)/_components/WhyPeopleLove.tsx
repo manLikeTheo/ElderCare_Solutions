@@ -3,7 +3,7 @@ function WhyPeopleLove() {
   return (
     <div className="flex flex-col justify-center py-4 bg-stone-200">
       <h1 className="text-5xl font-bold text-stone-900 capitalize text-center py-6">
-        Why People Love AgeBuddy
+        Why People Love <b className="text-rose-700">WellAged</b>
       </h1>
       <div className=" p-3 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-12 items-center *:rounded-3xl *:bg-transparent *:border-4">
         <div className="flex flex-col  p-4 text-center justify-center border-4 border-slate-800">
@@ -17,7 +17,7 @@ function WhyPeopleLove() {
           <h2 className="font-bold text-3xl text-slate-900 py-3">
             Simplified Senior Care
           </h2>
-          <div className="text-slate-900 text-left">
+          <div className="text-slate-900 text-left *:py-1">
             <p className="text-md font-semibold">
               <span className="font-bold text-xl">
                 {" "}
@@ -46,10 +46,10 @@ function WhyPeopleLove() {
           <h2 className="font-bold text-3xl text-slate-900 py-3">
             Peace of Mind for Families
           </h2>
-          <div className="text-slate-900 text-left">
+          <div className="text-slate-900 text-left *:py-1">
             <p className="text-md font-semibold">
               <span className="font-semibold text-xl">
-                Reliable Caregivers:{" "}
+                Reliable Care Provider access:{" "}
               </span>
               Easily access a trusted network of caregivers for mobility
               assistance, companionship, and more.
@@ -72,9 +72,9 @@ function WhyPeopleLove() {
             className="p-2"
           />
           <h2 className="font-bold text-3xl text-slate-900 py-3">
-            Holistic Aging Solutions
+            Holistic Elder Care Solutions
           </h2>
-          <div className="text-slate-900 text-left">
+          <div className="text-slate-900 text-left *:py-1">
             <p className="text-md font-semibold">
               <span className="font-semibold text-xl">Digital Companion: </span>
               A platform designed for seniors that enhances social interaction,

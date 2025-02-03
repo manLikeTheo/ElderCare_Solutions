@@ -4,11 +4,11 @@ const GetStarted = () => {
   return (
     <div className="py-4  text-center flex flex-col items-center">
       <div className="heading">
-        <h1 className="heading text-3xl text-stone-200 font-bold capitalize py-3">
+        <h1 className="heading text-3xl text-stone-700 font-bold capitalize py-3">
           How to get started
         </h1>
-        <p className="text text-stone-200 text-lg font-semibold px-6 italic">
-          Using <b className="text-amber-400 text-xl">AgeBuddy </b> is simple
+        <p className="text text-stone-700 text-lg font-semibold px-6 italic">
+          Using <b className="text-rose-700 text-2xl">WellAged </b> is simple
           and easy. Complete the onboarding process to get started.
         </p>
       </div>

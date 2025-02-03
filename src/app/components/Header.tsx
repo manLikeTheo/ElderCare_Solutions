@@ -3,8 +3,6 @@ import { NAV_LINKS } from "@/constants";
 import Image from "next/image";
 import Link from "next/link";
 import { useState } from "react";
-// import logo from "../../../../public/care2Age logo png.png";
-// import bars from "../../../public/Fitness Project/bars.png";
 import { FaHamburger } from "react-icons/fa";
 import { FaChevronDown } from "react-icons/fa6";
 const Header = () => {
@@ -16,10 +14,10 @@ const Header = () => {
       <Link href={`/`} className="hover:scale-90 w-auto h-auto">
         <Image
           className=""
-          src="/care2Age logo png.png"
-          alt="logo"
-          width={250}
-          height={250}
+          src="/WellAged Care+ Logo.png"
+          alt="wellAged logo"
+          width={80}
+          height={80}
         />
       </Link>
       <ul className="hidden h-full lg:flex gap-10 text-slate-100 hover:*:opacity-75">
@@ -39,11 +37,11 @@ const Header = () => {
                 <FaChevronDown size={24} />
               </Link>
               {isDropdownOpen && (
-                <ul className="absolute solutions-dropdown text-xl p-3 rounded opacity-100 w-[320px] z-50 bg-slate-600 text-slate-100 font-semibold leading-relaxed top-full left-0 border-4 border-red-400">
+                <ul className="absolute solutions-dropdown text-xl px-10 py-12 rounded opacity-100 w-[380px] *:py-3 z-50 bg-sky-700 text-slate-100 font-semibold leading-relaxed top-full left-0">
                   {link.dropdown.map((dropdownLink) => (
                     <li
                       key={dropdownLink.href}
-                      className="py-2 px-4 hover:font-extrabold hover:scale-90 transition-all"
+                      className="py-2 px-4 hover:font-extrabold hover:scale-105 transition-all hover:bg-sky-600"
                     >
                       <Link href={dropdownLink.href}>{dropdownLink.label}</Link>
                     </li>
@@ -72,12 +70,12 @@ const Header = () => {
 
       {/* Mobile Nav */}
       {isMenuOpen && (
-        <ul className="absolute top-20 right-0 w-[50%] p-2 text-xl bg-slate-500 text-slate-100 font-semibold leading-relaxed lg:hidden">
+        <ul className="absolute top-20 right-0 w-[50%] p-2 text-xl bg-sky-700 text-slate-100 font-semibold leading-relaxed lg:hidden">
           {NAV_LINKS.map((link) =>
             link.dropdown ? (
               <li
                 key={link.href}
-                className="py-2 px-4 hover:font-extrabold hover:scale-95 transition-all relative"
+                className="py-2 px-4 hover:font-extrabold hover:scale-105 transition-all  relative"
               >
                 <Link
                   href={link.href}
@@ -91,7 +89,7 @@ const Header = () => {
                     {link.dropdown.map((dropdownLink) => (
                       <li
                         key={dropdownLink.href}
-                        className="py-2 px-4 hover:font-extrabold hover:scale-95 transition-all"
+                        className="py-2 px-4 hover:font-extrabold hover:scale-95 transition-all hover:bg-sky-600"
                       >
                         <Link href={dropdownLink.href}>
                           {dropdownLink.label}

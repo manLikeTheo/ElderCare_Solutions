@@ -8,7 +8,7 @@ const LandingPage_Hero = () => {
   return (
     <section
       id="home"
-      className="w-full flex xl:flex-row flex-col justify-center min-h-screen gap-12 max-container padding-container z-[10]"
+      className="w-full flex xl:flex-row flex-col justify-center min-h-screen gap-12  padding-container z-[10]"
     >
       <div className="relative xl:w-2/5 flex flex-col justify-center items-start w-full max-xl:px-4 pt-1">
         {/* <div className="hero-title mt-0 rounded-3xl bg-gray-500 px-3 py-5 w-fit text-white text-md lg:text-2xl font-semibold uppercase relative flex items-center justify-start">
@@ -17,27 +17,28 @@ const LandingPage_Hero = () => {
         </div> */}
 
         <h1 className="mt-10 text-4xl lg:text-[38px] capitalize font-extrabold leading-[52px] max-sm:leading-[50px]">
-          <span className="xl:bg-stone-50 xl:whitespace-nowrap lg:whitespace-nowrap relative z[1] pr-10">
+          <span className="xl:bg-stone-50 xl:whitespace-nowrap lg:whitespace-nowrap relative z-[10] pr-10">
             Transforming senior care in Nigeria with{" "}
           </span>
           <br />
           <span>
-            <span className="text-red-500 inline-block mt-2">AgeBuddy </span>
+            <span className="text-red-500 inline-block mt-2">
+              WellAged Care{" "}
+            </span>
           </span>{" "}
-          NG
+          +
         </h1>
-        <p className="text-slate-700 text-[20px] font-semibold leading-8 mt-6 mb-12">
-          Simplified services for everyday senior needs, from digital assistance
-          to lifestyle perks.
+        <p className="text-slate-700 text-[21px] font-semibold leading-8 mt-6 mb-12">
+          Holistic Senior Care Solutions beyond Clinical Care
         </p>
         <div className="hero-buttons flex  items-center justify-center gap-8">
           <Link href="/about">
-            <Button className="btn rounded-xl  bg-rose-400 text-white py-5 px-5 font-semibold text-lg hover:bg-black hover:text-rose-500">
+            <Button className="btn rounded-xl  bg-rose-400 text-white py-5 px-5 font-semibold text-xl hover:bg-rose-700 hover:text-rose-50">
               Get Started
             </Button>
           </Link>
           <Link href="/about">
-            <Button className="btn rounded-xl px-5 py-5 font-semibold text-lg bg-white text-rose-600 hover:bg-rose-200">
+            <Button className="btn rounded-xl px-5 py-5 font-semibold text-xl bg-white text-rose-600 hover:bg-rose-700 hover:text-rose-50">
               Learn More
             </Button>
           </Link>
