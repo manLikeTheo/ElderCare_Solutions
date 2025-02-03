@@ -6,6 +6,7 @@ import WhyPeopleLove from "./_components/WhyPeopleLove";
 import GetStarted from "./_components/GetStarted";
 import JoinOurTeam from "./_components/joinTheTeam";
 import LandingPage_Hero from "./_components/LandingPage_Hero";
+import Testimonials from "./_components/Testimonials";
 export default function Home() {
   return (
     <div className="flex flex-col justify-center bg-stone-50">
@@ -15,6 +16,7 @@ export default function Home() {
       <Benefits />
       <WhyPeopleLove />
       <GetStarted />
+      <Testimonials />
       <JoinOurTeam />
     </div>
   );
