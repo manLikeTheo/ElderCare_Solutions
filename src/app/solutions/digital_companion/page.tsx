@@ -66,7 +66,10 @@ const AgebuddyDigitalCompanion = () => {
 
       <WhyChooseUsSection />
 
-      <BenefitsSection benefits={benefits} />
+      <BenefitsSection
+        heading="Benefits of the Digital Companion"
+        benefits={benefits}
+      />
       {/* <HowItWorksSection /> */}
       <FAQSection faqs={faqs} />
     </div>

@@ -19,13 +19,13 @@ function Footer() {
         backgroundSize: "cover",
         backgroundPosition: "center",
       }}
-      className=" text-white py-5 justify-center"
+      className=" text-white py-5 justify-center items-center"
     >
-      <div className="container mx-auto grid grid-cols-1 md:grid-cols-3 py-4 px-6 gap-8  ">
+      <div className="container mx-auto grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 py-4 px-6 gap-8 justify-between items-start">
         {/* Brand Name */}
         <div>
           <h1 className="text-6xl font-bold bg-gradient-to-r from-cyan-900 to-violet-900 bg-clip-text text-transparent md:text-4xl">
-            AgeBuddy
+            WellAged Care
           </h1>
           <div className="social Icons flex space-x-6 py-4 md:text-4xl">
             <Link href={"#"} className=" hover:text-indigo-900">
@@ -44,8 +44,8 @@ function Footer() {
         </div>
         {/* Contact Section */}
         <div className="flex flex-col space-y-4">
-          <h2 className="text-4xl font-bold bg-gradient-to-r from-violet-200 to-indigo-300 bg-clip-text text-transparent">
-            Contact Us
+          <h2 className="text-4xl font-bold bg-gradient-to-r from-violet-200 to-indigo-400 bg-clip-text text-transparent">
+            Get In Touch
           </h2>
           <a
             href="tel:+2347012345678"
@@ -57,13 +57,14 @@ function Footer() {
             href="mailto: support@seniors-tribe.com"
             className="text-xl font-semibold flex items-center gap-4 hover:underline hover:scale-105"
           >
-            <FaEnvelope size={20} /> support@seniors-tribe.com
+            <FaEnvelope size={20} /> support@wellagedcare.com
           </a>
           <a
             href="#"
             className="text-xl font-semibold flex items-center gap-4 hover:underline hover:scale-105"
           >
-            <FaLocationArrow size={20} /> Lagos, Nigeria
+            <FaLocationArrow size={20} />
+            No. 4, Ogundiran Street, Ikotun, Lagos, Nigeria
           </a>
         </div>
         {/* Solutions Section */}
@@ -108,7 +109,7 @@ function Footer() {
       <div className="border-t border-gray-700 mt-10 pt-4 text-center text-xl">
         <p className="flex justify-center gap-2 items-center">
           <FaCopyright size={20} />
-          {new Date().getFullYear()} Seniors Tribe. All rights reserved.
+          {new Date().getFullYear()} WellAged Care. All rights reserved.
         </p>
       </div>
     </footer>
