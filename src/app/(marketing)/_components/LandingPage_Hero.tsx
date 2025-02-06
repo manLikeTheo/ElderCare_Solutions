@@ -8,7 +8,7 @@ const LandingPage_Hero = () => {
   return (
     <section
       id="home"
-      className="w-full flex xl:flex-row flex-col justify-center min-h-screen gap-12  padding-container z-[10]"
+      className="w-full flex xl:flex-row flex-col justify-center min-h-screen gap-12 max-container padding-container z-[10]"
     >
       <div className="relative xl:w-2/5 flex flex-col justify-center items-start w-full max-xl:px-4 pt-1">
         {/* <div className="hero-title mt-0 rounded-3xl bg-gray-500 px-3 py-5 w-fit text-white text-md lg:text-2xl font-semibold uppercase relative flex items-center justify-start">

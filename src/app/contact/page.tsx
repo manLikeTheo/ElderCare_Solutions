@@ -65,14 +65,14 @@ function Contact_Us() {
         </form>
 
         {/* Contact Info */}
-        <div className="contact-info mt-12 text-center">
+        <div className="contact-info mt-12 text-center items-center justify-center flex flex-col p-4">
           <h2 className="text-2xl font-semibold mb-4">
             Our Contact Information
           </h2>
-          <div className="grid grid-cols-1 md:grid-cols-3 justify-center gap-6 *:shadow-sm text-xl font-semibold">
+          <div className="grid grid-cols-1 md:grid-cols-3 place-items-center gap-6 *:shadow-sm text-xl font-semibold">
             <div>
               <h3 className="text-lg font-medium">Email</h3>
-              <p>contact@agebuddy.com</p>
+              <p>contact@wellaged.com</p>
             </div>
             <div>
               <h3 className="text-lg font-medium">Phone</h3>
@@ -80,7 +80,10 @@ function Contact_Us() {
             </div>
             <div>
               <h3 className="text-lg font-medium">Location</h3>
-              <p>123 Senior Care Lane, Lagos, Nigeria</p>
+              <p>
+                4, Ogundiran Street, adjacent council bus-stop, Ikotun, Lagos,
+                Nigeria
+              </p>
             </div>
           </div>
         </div>

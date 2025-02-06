@@ -73,10 +73,17 @@ function Testimonials() {
         </h2>
 
         <Swiper
-          spaceBetween={30}
+          spaceBetween={32}
           slidesPerView={"auto"}
           navigation
-          pagination={{ clickable: true }}
+          pagination={{ clickable: true, progressbarOpposite: true }}
+          scrollbar={{ draggable: true }}
+          loop={true}
+          autoplay={{
+            delay: 1000,
+            pauseOnMouseEnter: true,
+            disableOnInteraction: false,
+          }}
           breakpoints={{
             320: {
               slidesPerView: 1,
@@ -88,11 +95,11 @@ function Testimonials() {
               slidesPerView: 3,
             },
           }}
-          className="pb-12"
+          className="pb-12 m-4 "
         >
           {testimonials.map((testimonial) => (
-            <SwiperSlide key={testimonial.id} className="h-auto">
-              <div className="bg-white rounded-xl shadow-lg p-6 m-4 h-full flex flex-col">
+            <SwiperSlide key={testimonial.id} className="h-auto ">
+              <div className="bg-white rounded-xl shadow-lg p-8 m-4 h-full flex flex-col">
                 <div className="mb-4">
                   <p className="text-slate-600 italic">"{testimonial.text}"</p>
                 </div>
@@ -125,9 +132,71 @@ function Testimonials() {
         .swiper-button-prev {
           color: #be123c; /* Match your rose-700 color */
         }
+        .swiper-pagination {
+          position: absolute;
+          bottom: -6px !important;
+        }
+
+        .swiper-pagination-bullet {
+          background-color: #be123c !important;
+          opacity: 0.6 !important;
+          width: 10px !important;
+          height: 10px !important;
+          border-radius: 50% !important;
+          margin: 0 7px !important;
+        }
 
         .swiper-pagination-bullet-active {
           background-color: #be123c !important;
+          opacity: 1 !important;
+          width: 15px !important;
+          height: 15px !important;
+          border-radius: 50% !important;
+          margin: 0 5px !important;
+        }
+        .swiper-pagination-progressbar-fill {
+          background-color: #be123c !important;
+          opacity: 1 !important;
+        }
+
+        .swiper-button-prev,
+        .swiper-button-next {
+          background-color: #be123c !important;
+          color: #be123c !important;
+          font-size: 20px !important;
+          top: 50% !important;
+          transform: translateY(-50%) !important;
+          width: 10px !important;
+          height: 10px !important;
+          border-radius: 50% !important;
+          padding: 10px !important;
+          display: flex !important;
+          align-items: center !important;
+          justify-content: center !important;
+        }
+        .swiper-button-next:hover,
+        .swiper-button-prev:hover {
+          background: #be123c; /* Change background on hover */
+          color: white;
+        }
+
+        /* Adjust button positioning */
+        .swiper-button-next {
+          right: 10px; /* Adjust right margin */
+        }
+
+        .swiper-button-prev {
+          left: 10px; /* Adjust left margin */
+        }
+
+        /* Optional: Hide on small screens */
+        @media (max-width: 768px) {
+          .swiper-button-next,
+          .swiper-button-prev {
+            width: 40px;
+            height: 40px;
+            font-size: 18px;
+          }
         }
       `}</style>
     </section>
