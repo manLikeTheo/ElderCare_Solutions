@@ -6,7 +6,7 @@ function WhyPeopleLove() {
         Why Families <span className="text-rose-700">Trust</span> WellAged Care
       </h1>
 
-      <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 place-items-center gap-8 px-6">
+      <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 place-items-center gap-8 px-6 max-container">
         {/* Card 1: Affordability */}
         <div className="bg-white p-6 rounded-2xl border-4 border-slate-800 shadow-lg hover:shadow-xl transition-shadow">
           <Image

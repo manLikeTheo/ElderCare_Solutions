@@ -30,7 +30,7 @@ const Header = () => {
               onMouseLeave={() => setIsDropdownOpen(false)}
             >
               <Link
-                className="regular-24 flex gap-2  items-center border-2 flexCenter cursor-pointer pb-1.5 transition-all hover:font-bold"
+                className="regular-24 flex gap-2  items-center  flexCenter cursor-pointer pb-1.5 transition-all hover:font-bold"
                 href={link.href}
               >
                 {link.label}
