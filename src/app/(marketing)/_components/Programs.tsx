@@ -4,10 +4,10 @@ import { productOfferings } from "@/app/_data/product_offering";
 function Programs() {
   return (
     <section className="py-16 bg-sky-700 ">
-      <div className="container mx-auto  py-4 md:px-12">
+      <div className="container px-10 mx-auto  py-4 md:px-8">
         <div className="text-center mb-12">
           <h1 className="text-4xl md:text-5xl font-bold text-white mb-4">
-            What We Offer
+            Our Products and Services
           </h1>
           <p className="text-xl text-slate-100 max-w-2xl mx-auto">
             Comprehensive solutions designed to empower seniors and bring peace

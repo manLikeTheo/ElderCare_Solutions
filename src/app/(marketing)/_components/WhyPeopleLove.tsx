@@ -1,4 +1,7 @@
 import Image from "next/image";
+import save_cost from "../../../../public/images/save_cost.png";
+import senior_care_ondemand from "../../../../public/images/senior_care_ondemand.jpg";
+import caregivers_network from "../../../../public/images/caregivers_network.png";
 function WhyPeopleLove() {
   return (
     <div className="flex flex-col justify-center py-12 bg-stone-200">
@@ -6,15 +9,15 @@ function WhyPeopleLove() {
         Why Families <span className="text-rose-700">Trust</span> WellAged Care
       </h1>
 
-      <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 place-items-center gap-8 px-6 max-container">
+      <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 place-items-center gap-8 px-10 max-container">
         {/* Card 1: Affordability */}
         <div className="bg-white p-6 rounded-2xl border-4 border-slate-800 shadow-lg hover:shadow-xl transition-shadow">
           <Image
-            src="/Startup Website/money-smartphone.png" // Consider using a money+heart icon
+            src={save_cost} // Consider using a money+heart icon
             alt="Affordable care"
-            width={120}
-            height={120}
-            className="mx-auto mb-4"
+            width={200}
+            height={200}
+            className="flex flex-col items-center justify-center mx-auto mb-4"
           />
           <h2 className="text-2xl font-bold text-slate-900 mb-4">
             Save Costs, Not Quality
@@ -22,13 +25,16 @@ function WhyPeopleLove() {
           <ul className="text-left space-y-3">
             <li>
               <strong>Zero Middleman Fees:</strong> 100% of payments go directly
-              to caregivers - <span className="text-rose-700">50% cheaper</span>{" "}
-              than agencies.
+              to caregivers -{" "}
+              <span className="text-rose-700 ">50% cheaper</span> than agencies.
             </li>
             <li>
-              <strong>Budget-Friendly Care Kits:</strong> Essential safety items
-              at <span className="text-rose-700">₦15,000</span> - less than 1
-              week’s nursing home costs.
+              <strong>Budget-Friendly Care Kits:</strong> Essential wellness
+              items{" "}
+              <span className="text-rose-700 ">
+                to foster independence and safety
+              </span>{" "}
+              - less than 1 week’s nursing home costs.
             </li>
           </ul>
         </div>
@@ -36,11 +42,11 @@ function WhyPeopleLove() {
         {/* Card 2: Trusted Care */}
         <div className="bg-white p-6 rounded-2xl border-4 border-slate-800 shadow-lg hover:shadow-xl transition-shadow">
           <Image
-            src="/Startup Website/vetted-caregiver-icon.png"
+            src={caregivers_network}
             alt="Vetted caregivers"
-            width={120}
-            height={120}
-            className="mx-auto mb-4"
+            width={200}
+            height={200}
+            className="flex flex-col items-center justify-center mx-auto mb-4"
           />
           <h2 className="text-2xl font-bold text-slate-900 mb-4">
             Elite Caregiver Network
@@ -59,13 +65,13 @@ function WhyPeopleLove() {
         </div>
 
         {/* Card 3: Convenience */}
-        <div className="bg-white p-6 rounded-2xl border-4 border-slate-800 shadow-lg hover:shadow-xl transition-shadow">
+        <div className="bg-white p-6 rounded-2xl border-4 border-slate-800 shadow-lg hover:shadow-xl transition-shadow flex flex-col items-center justify-center">
           <Image
-            src="/Startup Website/instant-booking-icon.png"
+            src={senior_care_ondemand}
             alt="Instant booking"
-            width={120}
-            height={120}
-            className="mx-auto mb-4"
+            width={250}
+            height={250}
+            className="mx-auto mb-4 rounded-xl"
           />
           <h2 className="text-2xl font-bold text-slate-900 mb-4">
             Care and support on demand

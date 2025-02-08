@@ -16,7 +16,7 @@ const LandingPage_Hero = () => {
           <span className="z-[2]">The best place to find elder care</span>
         </div> */}
 
-        <h1 className="mt-10 text-4xl lg:text-[38px] capitalize font-extrabold leading-[52px] max-sm:leading-[50px]">
+        <h1 className="mt-4 text-4xl lg:text-[38px] capitalize font-extrabold leading-[52px] max-sm:leading-[50px]">
           <span className="xl:bg-stone-50 xl:whitespace-nowrap lg:whitespace-nowrap relative z-[10] pr-10">
             Transforming senior care in Nigeria with{" "}
           </span>
@@ -28,7 +28,7 @@ const LandingPage_Hero = () => {
           </span>{" "}
           +
         </h1>
-        <p className="text-slate-700 text-[21px] font-semibold leading-8 mt-6 mb-12">
+        <p className="text-slate-700 text-[21px] font-semibold leading-8 mt-8 mb-16">
           Holistic Senior Care Solutions beyond Clinical Care
         </p>
         <div className="hero-buttons flex  items-center justify-center gap-8">
@@ -43,8 +43,22 @@ const LandingPage_Hero = () => {
             </Button>
           </Link>
         </div>
-        <div className="flex justify-start items-start flex-wrap gap-16 w-full mt-20 text-3xl">
-          Statistics
+        {/* Statistics */}
+        <div className="flex justify-start items-start flex-wrap gap-8 w-full mt-16">
+          <div className="flex flex-col gap-2 pr-8 border-r-2 border-rose-100">
+            <h3 className="text-4xl font-bold text-rose-700">1K+</h3>
+            <p className="text-slate-600 font-medium">Seniors Helped</p>
+          </div>
+
+          <div className="flex flex-col gap-2 pr-8 border-r-2 border-rose-100">
+            <h3 className="text-4xl font-bold text-rose-700">98%</h3>
+            <p className="text-slate-600 font-medium">Satisfaction Rate</p>
+          </div>
+
+          <div className="flex flex-col gap-2">
+            <h3 className="text-4xl font-bold text-rose-700">87%</h3>
+            <p className="text-slate-600 font-medium">Digital Adoption</p>
+          </div>
         </div>
       </div>
 

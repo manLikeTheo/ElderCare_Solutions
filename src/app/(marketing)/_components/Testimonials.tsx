@@ -66,7 +66,7 @@ const testimonials: Testimonial[] = [
 
 function Testimonials() {
   return (
-    <section className="py-16 bg-slate-50">
+    <section className="py-10 bg-slate-50">
       <div className="container mx-auto px-4">
         <h2 className="text-4xl font-bold text-center mb-8 text-slate-800">
           What Families Are Saying
