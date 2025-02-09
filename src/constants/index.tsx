@@ -8,7 +8,7 @@ export const NAV_LINKS = [
     dropdown: [
       {
         href: "/solutions/digital_companion",
-        label: "AgeBuddy Digital Companion",
+        label: "WellAged Digital Companion",
       },
       { href: "/solutions/care_kits", label: "Elderly Care Kits" },
       {

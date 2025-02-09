@@ -11,11 +11,6 @@ const LandingPage_Hero = () => {
       className="w-full flex xl:flex-row flex-col justify-center min-h-screen gap-12 max-container padding-container z-[10]"
     >
       <div className="relative xl:w-2/5 flex flex-col justify-center items-start w-full max-xl:px-4 pt-1">
-        {/* <div className="hero-title mt-0 rounded-3xl bg-gray-500 px-3 py-5 w-fit text-white text-md lg:text-2xl font-semibold uppercase relative flex items-center justify-start">
-          <div className="sliding-text absolute bg-amber-500 w-24 h-[80%] left-1 rounded-3xl z-[1]"></div>
-          <span className="z-[2]">The best place to find elder care</span>
-        </div> */}
-
         <h1 className="mt-4 text-4xl lg:text-[38px] capitalize font-extrabold leading-[52px] max-sm:leading-[50px]">
           <span className="xl:bg-stone-50 xl:whitespace-nowrap lg:whitespace-nowrap relative z-[10] pr-10">
             Transforming senior care in Nigeria with{" "}
@@ -29,7 +24,10 @@ const LandingPage_Hero = () => {
           +
         </h1>
         <p className="text-slate-700 text-[21px] font-semibold leading-8 mt-8 mb-16">
-          Holistic Senior Care Solutions beyond Clinical Care
+          At WellAged Care+, we deliver holistic care solutions that go beyond
+          traditional medical support. Our integrated platform overcomes
+          distance barriers, ensuring seniors remain safe, connected, and
+          empowered.
         </p>
         <div className="hero-buttons flex  items-center justify-center gap-8">
           <Link href="/about">
