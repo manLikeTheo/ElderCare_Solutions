@@ -78,7 +78,8 @@ function WhyPeopleLove() {
           </h2>
           <ul className="text-left space-y-3">
             <li>
-              <strong>24/7 On-Demand Care:</strong> Book vetted caregivers{" "}
+              <strong>24/7 On-Demand Care:</strong> Book vetted caregivers -
+              based on your preferences -{" "}
               <span className="text-rose-700">in under 5 minutes</span>.
             </li>
             <li>

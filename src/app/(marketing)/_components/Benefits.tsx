@@ -3,7 +3,7 @@ import Image from "next/image";
 import { FaCheck, FaCheckCircle } from "react-icons/fa";
 function Benefits() {
   return (
-    <div className="grid grid-cols-1 md:grid-cols-2 gap-8 p-12 bg-sky-100">
+    <section className="grid grid-cols-1 md:grid-cols-2 gap-8 p-24 bg-sky-100">
       {/* Left Column - Text Content */}
       <div className="space-y-8">
         <h2 className="text-4xl font-bold text-slate-800">
@@ -156,7 +156,7 @@ function Benefits() {
           className="rounded-2xl shadow-xl border-4 border-white"
         />
       </div>
-    </div>
+    </section>
   );
 }
 
