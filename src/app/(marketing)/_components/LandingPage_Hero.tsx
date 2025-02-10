@@ -24,10 +24,8 @@ const LandingPage_Hero = () => {
           +
         </h1>
         <p className="text-slate-700 text-[21px] font-semibold leading-8 mt-8 mb-16">
-          At WellAged Care+, we deliver holistic care solutions that go beyond
-          traditional medical support. Our integrated platform overcomes
-          distance barriers, ensuring seniors remain safe, connected, and
-          empowered.
+          Integrated Senior Care Solutions - Beyond medical support! Beyond
+          distance barriers
         </p>
         <div className="hero-buttons flex  items-center justify-center gap-8">
           <Link href="/about">
