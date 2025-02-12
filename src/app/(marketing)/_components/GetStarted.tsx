@@ -114,11 +114,11 @@ function GettingStarted() {
         <div className="text-center mt-16 hidden lg:block p-10 *:py-2 rounded-2xl">
           <Link
             href="about"
-            className="bg-rose-700 text-white px-8 py-4 rounded-xl text-xl font-semibold hover:bg-rose-800 transition-colors"
+            className="bg-rose-700 text-white px-8 py-5 rounded-xl text-xl font-semibold hover:bg-rose-800 transition-colors"
           >
             Start Your Free Trial Now
           </Link>
-          <p className="mt-4 text-slate-600 text-lg">
+          <p className="mt-4 text-slate-600 text-lg font-medium">
             Complete setup in 5 minutes • Cancel anytime
           </p>
         </div>

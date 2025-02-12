@@ -17,19 +17,19 @@ const LandingPage_Hero = () => {
           </span>
           <br />
           <span>
-            <span className="text-red-500 inline-block mt-2">
+            <span className="text-rose-600 inline-block mt-2">
               WellAged Care{" "}
             </span>
           </span>{" "}
           +
         </h1>
-        <p className="text-slate-700 text-[21px] font-semibold leading-8 mt-8 mb-16">
+        <p className="text-slate-700 text-[21px] font-semibold leading-10 tracking-wider mt-8 mb-16">
           Integrated Senior Care Solutions - Beyond medical support! Beyond
-          distance barriers
+          distance!
         </p>
         <div className="hero-buttons flex  items-center justify-center gap-8">
           <Link href="/about">
-            <Button className="btn rounded-xl  bg-rose-400 text-white py-5 px-5 font-semibold text-xl hover:bg-rose-700 hover:text-rose-50">
+            <Button className="btn rounded-xl  bg-rose-600 text-white py-5 px-5 font-semibold text-xl hover:bg-rose-700 hover:text-rose-50">
               Get Started
             </Button>
           </Link>

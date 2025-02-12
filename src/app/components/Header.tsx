@@ -5,11 +5,12 @@ import Link from "next/link";
 import { useState } from "react";
 import { FaHamburger } from "react-icons/fa";
 import { FaChevronDown } from "react-icons/fa6";
+
 const Header = () => {
   const [isDropdownOpen, setIsDropdownOpen] = useState(false);
   const [isMenuOpen, setIsMenuOpen] = useState(false);
   return (
-    <nav className="flex group justify-between gap-8 items-center px-8 bg-sky-700 shadow-lg shadow-slate-300 z-50 relative">
+    <nav className="flex group justify-between gap-8 items-center px-8 bg-sky-700/90 shadow-lg shadow-slate-300 z-50 relative">
       {/* Logo */}
       <Link href={`/`} className="hover:scale-90 w-auto h-auto">
         <Image

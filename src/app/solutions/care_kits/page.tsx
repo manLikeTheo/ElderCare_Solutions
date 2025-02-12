@@ -132,7 +132,7 @@ const CareKitsPage = () => {
       </section>
 
       {/* Value Proposition Section */}
-      <section className="py-20 bg-rose-50">
+      <section className="py-20 bg-rose-100">
         <div className="max-w-7xl mx-auto px-4">
           <div className="grid md:grid-cols-2 gap-12 items-center">
             <div className="grid grid-cols-2 gap-6">

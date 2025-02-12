@@ -159,21 +159,7 @@ function Testimonials() {
           opacity: 1 !important;
         }
 
-        .swiper-button-prev,
-        .swiper-button-next {
-          background-color: #be123c !important;
-          color: #be123c !important;
-          font-size: 20px !important;
-          top: 50% !important;
-          transform: translateY(-50%) !important;
-          width: 10px !important;
-          height: 10px !important;
-          border-radius: 50% !important;
-          padding: 10px !important;
-          display: flex !important;
-          align-items: center !important;
-          justify-content: center !important;
-        }
+        // Add hover effect to buttons
         .swiper-button-next:hover,
         .swiper-button-prev:hover {
           background: #be123c; /* Change background on hover */
