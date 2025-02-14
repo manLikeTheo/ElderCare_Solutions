@@ -6,7 +6,8 @@ function WhyPeopleLove() {
   return (
     <div className="flex flex-col justify-center py-12 bg-stone-200">
       <h1 className="text-5xl font-bold text-stone-900 text-center p-12">
-        Why Families <span className="text-rose-700">Trust</span> WellAged Care
+        Why Families <span>Trust</span>{" "}
+        <b className="text-rose-700">WellAged Care</b>
       </h1>
 
       <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 place-items-center gap-8 px-10 max-container">

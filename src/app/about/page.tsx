@@ -3,6 +3,10 @@ import african_elderly from "../../../public/images/african_elderly.png";
 import Senior_Citizen from "../../../public/images/Senior_Citizen.png";
 import eldercare from "../../../public/Startup Website/eldercare.jpg";
 import nigeria_healthcare_crisis from "../../../public/Startup Website/nigeria_healthcare_crisis.png";
+// SDG goals
+import sdg_3 from "../../../public/SDG/sdg_3.png";
+import sdg_8 from "../../../public/SDG/sdg_8.png";
+import sdg_10 from "../../../public/SDG/sdg_10.png";
 
 function About_Us() {
   return (
@@ -110,15 +114,21 @@ function About_Us() {
               Nigeria's Elder Care Crisis
             </h3>
 
-            <div className="grid md:grid-cols-3 gap-8">
+            <div className="grid md:grid-cols-3 gap-8 mt-8">
               {/* Care System Breakdown Card */}
               <div className="bg-white/10 p-8 rounded-xl">
                 <div className="text-4xl mb-4">🏚️</div>
                 <h4 className="text-xl font-bold mb-4">Broken Care System</h4>
-                <ul className="list-disc pl-5 space-y-2 text-stone-200">
-                  <li>10.2M seniors needing care today</li>
-                  <li>73% diaspora families with care anxiety</li>
-                  <li>0 comprehensive solutions pre-2020</li>
+                <ul className="list-disc pl-5 space-y-2 text-stone-100/90">
+                  <li className="font-medium text-[17px]">
+                    10.2M seniors needing care today
+                  </li>
+                  <li className="font-medium text-[17px]">
+                    73% diaspora families with care anxiety
+                  </li>
+                  <li className="font-medium text-[17px]">
+                    0 comprehensive solutions pre-2020
+                  </li>
                 </ul>
               </div>
 
@@ -128,10 +138,16 @@ function About_Us() {
                 <h4 className="text-xl font-bold mb-4">
                   Silent Killers at Home
                 </h4>
-                <ul className="list-disc pl-5 space-y-2 text-stone-200">
-                  <li>68% of senior falls go unprevented</li>
-                  <li>3x higher mortality post-domestic injury</li>
-                  <li>92% homes lack senior safety features</li>
+                <ul className="list-disc pl-5 space-y-2 text-stone-100/90">
+                  <li className="font-medium text-[17px]">
+                    68% of senior falls go unprevented
+                  </li>
+                  <li className="font-medium text-[17px]">
+                    3x higher mortality post-domestic injury
+                  </li>
+                  <li className="font-medium text-[17px]">
+                    92% homes lack senior safety features
+                  </li>
                 </ul>
               </div>
 
@@ -139,50 +155,83 @@ function About_Us() {
               <div className="bg-white/10 p-8 rounded-xl">
                 <div className="text-4xl mb-4">😔</div>
                 <h4 className="text-xl font-bold mb-4">Invisible Suffering</h4>
-                <ul className="list-disc pl-5 space-y-2 text-stone-200">
-                  <li>6/10 seniors eat meals alone</li>
-                  <li>82% feel digitally excluded</li>
-                  <li>4hrs daily TV as sole company</li>
+                <ul className="list-disc pl-5 space-y-2 text-stone-100/90">
+                  <li className="font-medium text-[17px]">
+                    6/10 seniors eat meals alone
+                  </li>
+                  <li className="font-medium text-[17px]">
+                    82% feel digitally excluded
+                  </li>
+                  <li className="font-medium text-[17px]">
+                    4hrs daily TV as sole company
+                  </li>
                 </ul>
               </div>
             </div>
 
             {/* JAPA Wave Impact */}
-            <div className="mt-16 bg-white/20 p-8 rounded-xl text-center">
-              <div className="inline-block bg-white text-purple-900 px-6 py-2 rounded-full mb-4">
+            <div className="mt-16 bg-violet-50/30 p-10 rounded-xl text-center">
+              <div className="inline-block bg-white/95 text-purple-900 px-6 py-2 rounded-full mb-4 font-bold text-2xl">
                 The JAPA Effect
               </div>
-              <p className="text-xl">
+              <p className="text-xl italic">
                 With 144,000+ young Nigerians emigrating annually, traditional
                 family care structures are collapsing faster than ever before.
+                Older adults are turning "ElderLy Orphans suddenly."
               </p>
+            </div>
+
+            {/* Impact Stats */}
+            <div className="mt-20 bg-violet-50/30 text-white rounded-2xl p-12">
+              <div className="grid md:grid-cols-3 gap-8 text-center">
+                <div>
+                  <div className="text-4xl font-bold">10.2M+</div>
+                  <p>Seniors needing consistent care & support today</p>
+                </div>
+                <div>
+                  <div className="text-3xl font-bold">
+                    Traditional family structures
+                  </div>
+                  <p>are increasingly under strain</p>
+                </div>
+                <div>
+                  <div className="text-4xl font-bold">28.9M</div>
+                  <p>Projected seniors by 2030</p>
+                </div>
+              </div>
             </div>
           </div>
         </div>
 
         {/* Bridge to Solution */}
         <div className="container mx-auto px-6 lg:px-20 py-20">
-          <div className="bg-white rounded-2xl shadow-xl p-12 text-center">
+          <div className="bg-violet-200 rounded-2xl shadow-xl p-12 text-center">
             <h3 className="text-3xl font-bold text-purple-900 mb-8">
               This is why we built WellAged Care+
             </h3>
             <div className="max-w-2xl mx-auto">
               <p className="text-xl text-stone-600 mb-8">
-                After consulting 52 families and care experts, we discovered
-                three painful truths:
+                After consulting seniors, families, and care experts, we
+                discovered three painful truths:
               </p>
               <div className="grid md:grid-cols-3 gap-6">
                 <div className="bg-purple-50 p-6 rounded-xl">
                   <div className="text-4xl mb-4">💔</div>
-                  <p>Clinical care ≠ Quality of life</p>
+                  <p className="font-medium text-md">
+                    Clinical care ≠ Quality of life
+                  </p>
                 </div>
                 <div className="bg-purple-50 p-6 rounded-xl">
                   <div className="text-4xl mb-4">🏡</div>
-                  <p>Home should be safe, not dangerous</p>
+                  <p className="font-medium text-md">
+                    Home should be safe, not dangerous
+                  </p>
                 </div>
                 <div className="bg-purple-50 p-6 rounded-xl">
                   <div className="text-4xl mb-4">🌍</div>
-                  <p>Distance shouldn't mean disconnection</p>
+                  <p className="font-medium text-md">
+                    Distance shouldn't mean disconnection
+                  </p>
                 </div>
               </div>
               <button className="mt-12 bg-purple-900 text-white px-8 py-4 rounded-full font-semibold hover:bg-purple-800 transition-colors">
@@ -194,10 +243,10 @@ function About_Us() {
       </section>
 
       {/* Problem - Solution */}
-      <section className="bg-purple-50 py-20">
+      <section className="bg-purple-50 py-10">
         <div className="container mx-auto px-6 lg:px-20">
-          <h2 className="text-4xl font-bold text-center mb-16">
-            Solving Africa's Elder Care Crisis
+          <h2 className="text-4xl font-bold text-center mb-16 shadow-sm">
+            Our Solution to this growing Crisis
           </h2>
 
           {/* Problem-Solution Grid */}
@@ -208,14 +257,17 @@ function About_Us() {
               <h3 className="text-2xl font-bold mb-4">
                 Digital Companion Platform
               </h3>
-              <p className="text-red-600 font-medium mb-4">
+              <p className="text-red-600 font-medium mb-4 text-md tracking-wide">
                 Addressing digital exclusion & loneliness for 82% of Nigerian
                 seniors
               </p>
-              <ul className="list-check pl-5 space-y-2 text-stone-600">
-                <li>Local language health content (Yoruba/Hausa)</li>
-                <li>Daily safety check-ins via voice commands</li>
-                <li>Virtual family meeting hub</li>
+              <ul className="list-check pl-5 space-y-2 text-stone-600 font-medium">
+                <li>
+                  Easy-to-understand and age-relevant health & wellness
+                  information
+                </li>
+                <li>Daily check-ins via voice commands</li>
+                <li>Virtual care management hub for families</li>
               </ul>
               <button className="mt-6 text-purple-900 font-semibold flex items-center">
                 See Platform Demo →
@@ -226,14 +278,15 @@ function About_Us() {
             <div className="bg-white p-8 rounded-2xl shadow-lg hover:shadow-xl transition-shadow">
               <div className="text-purple-900 text-4xl mb-6">👜</div>
               <h3 className="text-2xl font-bold mb-4">Elderly Care Kits</h3>
-              <p className="text-red-600 font-medium mb-4">
-                Preventing 60% of common senior emergencies
+              <p className="text-red-600 font-medium mb-4 text-md tracking-wide">
+                Preventing 60% of common senior complications & domestic
+                accidents - with practical tools in one care package
               </p>
-              <ul className="list-check pl-5 space-y-2 text-stone-600">
-                <li>Anti-slip bathroom mats</li>
-                <li>Medication organizers with alarms</li>
-                <li>Emergency alert wristbands</li>
-                <li>Cultural meal preparation guides</li>
+              <ul className="list-check pl-5 space-y-2 text-stone-600 font-medium">
+                <li>Basic hygiene and essentials kits</li>
+                <li>Safety and household risk prevention kits</li>
+                <li>Cognitive stimulation & engagement kits</li>
+                <li>Diet and nutrition products</li>
               </ul>
               <button className="mt-6 text-purple-900 font-semibold flex items-center">
                 View Kit Contents →
@@ -244,78 +297,26 @@ function About_Us() {
             <div className="bg-white p-8 rounded-2xl shadow-lg hover:shadow-xl transition-shadow">
               <div className="text-purple-900 text-4xl mb-6">👥</div>
               <h3 className="text-2xl font-bold mb-4">
-                Community Care Network
+                Community-Powered Care & Support Network
               </h3>
-              <p className="text-red-600 font-medium mb-4">
+              <p className="text-red-600 font-medium mb-4 text-md tracking-wide">
                 Bridging care access gaps for 73% of diaspora families
               </p>
-              <ul className="list-check pl-5 space-y-2 text-stone-600">
+              <ul className="list-check pl-5 space-y-2 text-stone-600 font-medium">
                 <li>Vetted caregivers with 3-step verification</li>
-                <li>24/7 emergency response teams</li>
+                <li>Dependable elder care services on demand</li>
                 <li>Local senior social clubs</li>
-                <li>Real-time care updates for families</li>
+                <li>Real-time updates between caregivers and families</li>
               </ul>
               <button className="mt-6 text-purple-900 font-semibold flex items-center">
                 Meet Our Caregivers →
               </button>
             </div>
           </div>
-
-          {/* Impact Stats */}
-          <div className="mt-20 bg-purple-900 text-white rounded-2xl p-12">
-            <div className="grid md:grid-cols-3 gap-8 text-center">
-              <div>
-                <div className="text-4xl font-bold">10.2M+</div>
-                <p>Seniors needing care today</p>
-              </div>
-              <div>
-                <div className="text-4xl font-bold">92%</div>
-                <p>Reduction in family care anxiety</p>
-              </div>
-              <div>
-                <div className="text-4xl font-bold">28.9M</div>
-                <p>Projected seniors by 2030</p>
-              </div>
-            </div>
-          </div>
-
-          {/* SDG Alignment */}
-          <div className="mt-16 flex flex-wrap justify-center gap-8">
-            <div className="bg-white p-4 rounded-xl shadow-md w-40 text-center">
-              <Image
-                src="/sdg3.png"
-                width={80}
-                height={80}
-                className="mx-auto"
-                alt="SDG 3"
-              />
-              <p className="mt-2 text-sm">Health & Well-being</p>
-            </div>
-            <div className="bg-white p-4 rounded-xl shadow-md w-40 text-center">
-              <Image
-                src="/sdg8.png"
-                width={80}
-                height={80}
-                className="mx-auto"
-                alt="SDG 8"
-              />
-              <p className="mt-2 text-sm">Decent Work</p>
-            </div>
-            <div className="bg-white p-4 rounded-xl shadow-md w-40 text-center">
-              <Image
-                src="/sdg10.png"
-                width={80}
-                height={80}
-                className="mx-auto"
-                alt="SDG 10"
-              />
-              <p className="mt-2 text-sm">Reduced Inequality</p>
-            </div>
-          </div>
         </div>
       </section>
 
-      {/* Cultural Differentiator */}
+      {/* Point of Difference */}
       <section className="container mx-auto px-6 lg:px-20 py-20">
         <div className="grid lg:grid-cols-2 gap-16 items-center">
           <Image
@@ -324,30 +325,40 @@ function About_Us() {
             className="rounded-3xl shadow-2xl"
           />
           <div className="space-y-8">
-            <div className="inline-block bg-purple-100 text-purple-900 px-6 py-2 rounded-full text-lg font-semibold">
+            <div className="inline-block bg-violet-100 text-purple-900 px-8 py-3 rounded-full text-2xl font-bold">
               Our Edge
             </div>
             <h2 className="text-4xl font-bold text-stone-900">
-              Built for Nigeria, By Nigerians
+              More Than Just Senior Care—A Complete Ecosystem
             </h2>
             <div className="space-y-6">
               <div className="flex items-start gap-4 bg-white p-6 rounded-xl">
                 <div className="text-purple-900 text-2xl">🌍</div>
                 <div>
-                  <h4 className="text-xl font-bold">Cultural Intelligence</h4>
-                  <p className="text-stone-600">
-                    Solutions designed around Nigerian family values and senior
-                    preferences identified in our 52-user research study
+                  <h4 className="text-xl font-bold">
+                    Created by Those Who Understand the Struggle
+                  </h4>
+                  <p className="text-stone-600 tracking-wide">
+                    Born from real-life challenges, our solution goes beyond
+                    conventional elder care. We’ve experienced firsthand the
+                    gaps in traditional healthcare, and we've designed a system
+                    that truly prioritizes seniors’ well-being—physically,
+                    emotionally, and socially.
                   </p>
                 </div>
               </div>
               <div className="flex items-start gap-4 bg-white p-6 rounded-xl">
                 <div className="text-purple-900 text-2xl">💡</div>
                 <div>
-                  <h4 className="text-xl font-bold">Holistic Approach</h4>
-                  <p className="text-stone-600">
-                    Addressing 3 key gaps competitors miss: social connection,
-                    daily wellness, and cultural relevance
+                  <h4 className="text-xl font-bold">
+                    Holistic Approach, Beyond the Basics{" "}
+                  </h4>
+                  <p className="text-stone-600 tracking-wide">
+                    Unlike traditional models that focus solely on medical
+                    visits or caregiver matching, our comprehensive ecosystem
+                    integrates digital tools, community support, in-person care,
+                    and proactive wellness solutions—ensuring seniors thrive in
+                    every aspect of life.
                   </p>
                 </div>
               </div>
@@ -365,11 +376,11 @@ function About_Us() {
           <div className="grid md:grid-cols-3 gap-8">
             <div className="bg-white p-8 rounded-xl shadow-lg">
               <Image
-                src="/sdg3.png"
+                src={sdg_3}
                 alt="SDG 3"
-                width={100}
-                height={100}
-                className="mx-auto"
+                width={200}
+                height={200}
+                className="mx-auto rounded-2xl"
               />
               <h3 className="text-xl font-bold mt-4">
                 Good Health & Well-being
@@ -377,23 +388,66 @@ function About_Us() {
             </div>
             <div className="bg-white p-8 rounded-xl shadow-lg">
               <Image
-                src="/sdg10.png"
+                src={sdg_10}
                 alt="SDG 10"
-                width={100}
-                height={100}
-                className="mx-auto"
+                width={200}
+                height={200}
+                className="mx-auto rounded-2xl"
               />
               <h3 className="text-xl font-bold mt-4">Reduced Inequalities</h3>
             </div>
             <div className="bg-white p-8 rounded-xl shadow-lg">
               <Image
-                src="/sdg8.png"
+                src={sdg_8}
                 alt="SDG 8"
-                width={100}
-                height={100}
-                className="mx-auto"
+                width={200}
+                height={200}
+                className="mx-auto rounded-2xl"
               />
               <h3 className="text-xl font-bold mt-4">Decent Work & Growth</h3>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      {/* Mission - Vision */}
+      <section className="bg-purple-900 text-white py-24">
+        <div className="container mx-auto px-6 lg:px-20 text-center">
+          <div className="max-w-3xl mx-auto">
+            {/* Mission */}
+            <div className="mb-16">
+              <h2 className="text-4xl font-bold mb-6 tracking-wider">
+                OUR
+                <span className="block text-5xl mt-2">MISSION</span>
+              </h2>
+              <p className="text-xl leading-relaxed">
+                To revolutionize elder care in Africa by providing
+                <span className="block font-semibold text-purple-200">
+                  holistic, dignity-first solutions
+                </span>
+                that bridge the care gap between seniors and their families,
+                <span className="block font-semibold text-purple-200">
+                  regardless of distance.
+                </span>
+              </p>
+            </div>
+
+            {/* Vision */}
+            <div className="pt-16 border-t border-white/20">
+              <h2 className="text-4xl font-bold mb-6 tracking-wider">
+                OUR
+                <span className="block text-5xl mt-2">VISION</span>
+              </h2>
+              <p className="text-xl leading-relaxed">
+                A future where every African senior thrives with
+                <span className="block font-semibold text-purple-200">
+                  purpose, safety, and connection,
+                </span>
+                transforming aging from a challenge into a
+                <span className="block font-semibold text-purple-200">
+                  cherished life chapter.
+                </span>
+              </p>
             </div>
           </div>
         </div>

@@ -44,10 +44,10 @@ function GettingStarted() {
     <section className="py-6 bg-gradient-to-b from-slate-50 to-white">
       <div className="container mx-auto px-4 ">
         <div className="text-center mb-12">
-          <h2 className="text-4xl font-bold text-slate-800 mb-4">
-            Get Started in 4 Simple Steps
+          <h2 className="text-4xl font-extrabold tracking-wide text-slate-800 mb-4">
+            How To Get Started
           </h2>
-          <p className="text-lg text-slate-600 max-w-2xl mx-auto">
+          <p className="text-lg text-slate-600 max-w-2xl mx-auto font-medium italic">
             Begin your journey to better senior care in less than 5 minutes
           </p>
         </div>

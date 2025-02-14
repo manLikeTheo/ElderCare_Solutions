@@ -30,12 +30,7 @@ const LandingPage_Hero = () => {
         <div className="hero-buttons flex  items-center justify-center gap-8">
           <Link href="/about">
             <Button className="btn rounded-xl  bg-rose-600 text-white py-5 px-5 font-semibold text-xl hover:bg-rose-700 hover:text-rose-50">
-              Get Started
-            </Button>
-          </Link>
-          <Link href="/about">
-            <Button className="btn rounded-xl px-5 py-5 font-semibold text-xl bg-white text-rose-600 hover:bg-rose-700 hover:text-rose-50">
-              Learn More
+              Learn More About Us
             </Button>
           </Link>
         </div>
@@ -58,6 +53,7 @@ const LandingPage_Hero = () => {
         </div>
       </div>
 
+      {/* hero image */}
       <div className="relative flex-1  flex justify-center items-center xl:min-h-screen bg-indigo-100 p-3 w-full">
         <Image
           className="w-full object-contain  z-10 rounded-2xl p-2"
