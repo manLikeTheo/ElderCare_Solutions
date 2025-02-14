@@ -1,6 +1,6 @@
 import { ReactNode } from "react";
 import Header from "../components/Header";
-function AboutLayout({ children }: { children: ReactNode }) {
+function TeamLayout({ children }: { children: ReactNode }) {
   return (
     <div className="mx-auto  bg-stone-200/50">
       {/* <Header /> */}
@@ -9,4 +9,4 @@ function AboutLayout({ children }: { children: ReactNode }) {
   );
 }
 
-export default AboutLayout;
+export default TeamLayout;
