@@ -29,7 +29,7 @@ const LandingPage_Hero = () => {
         </p>
         <div className="hero-buttons flex  items-center justify-center gap-8">
           <Link href="/about">
-            <Button className="btn rounded-xl  bg-rose-600 text-white py-5 px-5 font-semibold text-xl hover:bg-rose-700 hover:text-rose-50">
+            <Button className="btn rounded-xl  bg-rose-600 text-white p-6 font-semibold text-xl hover:bg-rose-700 hover:text-white/90 hover:scale-105 transition-all duration-300 ease-in-out">
               Learn More About Us
             </Button>
           </Link>
