@@ -1,6 +1,7 @@
 import { Button } from "@/components/ui/button";
+import Image from "next/image";
 import React from "react";
-
+import join_us_png from "../../../../public/join_us_png.png";
 const JoinOurTeam = () => {
   return (
     <div className="join-team px-6 py-4 bg-gradient-to-r from-rose-100/30 to-violet-900 grid grid-cols-1 place-items-center lg:grid-cols-2 items-center">
@@ -15,7 +16,9 @@ const JoinOurTeam = () => {
           Get Onboard
         </Button>
       </div>
-      <div className="image w-[320px] h-[200px] bg-slate-800 rounded-2xl"></div>
+      <div className="image w-[320px] h-[200px] bg-transparent rounded-2xl">
+        <Image src={join_us_png} alt="Team" width={280} height={200} />
+      </div>
     </div>
   );
 };
