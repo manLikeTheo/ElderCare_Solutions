@@ -70,7 +70,7 @@ function Footer() {
         {/* Solutions Section */}
         <div>
           <h2 className="text-4xl font-bold bg-gradient-to-r from-violet-900 to-indigo-900 bg-clip-text text-transparent">
-            Our Product Offerings
+            Quick Links
           </h2>
           <ul className="mt-4 space-y-2 *:text-2xl ">
             <a
