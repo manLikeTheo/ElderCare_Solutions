@@ -10,7 +10,7 @@ const Header = () => {
   const [isDropdownOpen, setIsDropdownOpen] = useState(false);
   const [isMenuOpen, setIsMenuOpen] = useState(false);
   return (
-    <nav className="flex group justify-between gap-8 items-center px-8 bg-sky-700/90 shadow-lg shadow-slate-300 z-50 relative">
+    <nav className="flex group justify-between gap-8 items-center px-8 bg-sky-800/90 shadow-sm shadow-sky-900 z-50 relative">
       {/* Logo */}
       <Link href={`/`} className="hover:scale-90 w-auto h-auto">
         <Image
@@ -54,7 +54,7 @@ const Header = () => {
             <Link
               href={link.href}
               key={link.href}
-              className="regular-24 font-bold text-gray-50 flexCenter cursor-pointer pb-1 transition-all hover:font-bold"
+              className="regular-24 font-bold text-gray-50 flexCenter cursor-pointer pb-1 transition-all hover:font-bold tracking-wide"
             >
               {link.label}
             </Link>

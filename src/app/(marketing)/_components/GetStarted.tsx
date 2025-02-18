@@ -1,129 +1,151 @@
+"use client";
+import { motion } from "framer-motion";
+import Image from "next/image";
+import Link from "next/link";
 import {
   ArrowRightIcon,
   ShoppingCartIcon,
   UserPlusIcon,
   DevicePhoneMobileIcon,
+  GiftIcon,
 } from "@heroicons/react/24/outline";
-import Image from "next/image";
-import Link from "next/link";
 
 function GettingStarted() {
   const steps = [
     {
       number: "01",
-      title: "Create Your Account",
-      description: "Sign up in 1 minute to access our senior care platform",
-      icon: <UserPlusIcon className="w-8 h-8 text-rose-700" />,
-      image: "/images/Tablet_UI.jpg",
+      title: "Create Your Family Profile",
+      description: "2-minute signup to access our care ecosystem",
+      icon: <UserPlusIcon className="w-8 h-8 text-purple-600" />,
+      image: "/images/digital-companion-signup.jpg",
     },
     {
       number: "02",
-      title: "Choose Your Solution",
+      title: "Personalize Your Digital Companion",
       description:
-        "Select between digital companion, care kits, or caregiver services",
-      icon: <ShoppingCartIcon className="w-8 h-8 text-rose-700" />,
-      image: "/images/Tablet_UI.jpg",
+        "Set preferences for health tracking, language, and family connections",
+      icon: <DevicePhoneMobileIcon className="w-8 h-8 text-purple-600" />,
+      image: "/images/digital-companion-setup.jpg",
     },
     {
       number: "03",
-      title: "Set Up Profile",
-      description: "Add senior details and preferences for personalized care",
-      icon: <DevicePhoneMobileIcon className="w-8 h-8 text-rose-700" />,
-      image: "/images/Tablet_UI.jpg",
+      title: "Choose Care Solutions",
+      description: "Activate digital features or order physical Care Kits",
+      icon: <GiftIcon className="w-8 h-8 text-purple-600" />,
+      image: "/images/care-kit-unboxing.jpg",
     },
     {
       number: "04",
-      title: "Start Engaging",
-      description: "Begin using services within minutes of setup",
-      icon: <ArrowRightIcon className="w-8 h-8 text-rose-700" />,
-      image: "/images/Tablet_UI.jpg",
+      title: "Connect & Engage",
+      description:
+        "Start using smart reminders, family chats, and care tracking",
+      icon: <ArrowRightIcon className="w-8 h-8 text-purple-600" />,
+      image: "/images/digital-companion-dashboard.jpg",
     },
   ];
 
   return (
-    <section className="py-6 bg-gradient-to-b from-slate-50 to-white">
-      <div className="container mx-auto px-4 ">
-        <div className="text-center mb-12">
-          <h2 className="text-4xl font-extrabold tracking-wide text-slate-800 mb-4">
-            How To Get Started
+    <section className="py-20 bg-purple-50">
+      <div className="container mx-auto px-4">
+        <motion.div
+          initial={{ opacity: 0, y: 20 }}
+          whileInView={{ opacity: 1, y: 0 }}
+          viewport={{ once: true }}
+          className="text-center mb-16"
+        >
+          <h2 className="text-4xl md:text-5xl font-bold text-purple-900 mb-4">
+            Start Your Care Journey in 4 Steps
           </h2>
-          <p className="text-lg text-slate-600 max-w-2xl mx-auto font-medium italic">
-            Begin your journey to better senior care in less than 5 minutes
+          <p className="text-lg text-stone-600 max-w-3xl mx-auto">
+            Seamlessly blend digital care tools with physical wellness solutions
           </p>
-        </div>
+        </motion.div>
 
-        <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 mt-16 p-10">
+        <div className="grid lg:grid-cols-2 gap-8 xl:gap-12">
           {/* Steps Column */}
-          <div className="space-y-8">
+          <div className="space-y-6">
             {steps.map((step, index) => (
-              <div // Step
-                id={`step-${index + 1}`}
+              <motion.div
                 key={step.number}
-                className="group relative bg-stone-100 rounded-2xl p-6 shadow-lg hover:shadow-xl transition-shadow"
+                initial={{ opacity: 0, x: -20 }}
+                whileInView={{ opacity: 1, x: 0 }}
+                viewport={{ once: true, margin: "0px 0px -100px 0px" }}
+                transition={{ delay: index * 0.1 }}
+                className="group relative bg-white rounded-xl p-6 shadow-lg hover:shadow-xl transition-shadow border border-purple-100"
               >
                 <div className="flex items-start gap-6">
                   {/* Number Badge */}
                   <div className="flex-shrink-0">
-                    <span className="text-rose-700 text-2xl font-bold bg-rose-50 rounded-full w-16 h-16 flex items-center justify-center">
+                    <span className="text-purple-600 text-xl font-bold bg-purple-50 rounded-lg w-14 h-14 flex items-center justify-center">
                       {step.number}
                     </span>
                   </div>
 
                   {/* Content */}
-                  <div>
+                  <div className="flex-1">
                     <div className="mb-2">{step.icon}</div>
-                    <h3 className="text-2xl font-semibold text-slate-800 mb-2">
+                    <h3 className="text-xl font-semibold text-stone-800 mb-2">
                       {step.title}
                     </h3>
-                    <p className="text-slate-600">{step.description}</p>
+                    <p className="text-stone-600 text-sm">{step.description}</p>
                   </div>
                 </div>
 
-                {/* Step Image (Hover Reveal) */}
-                <div className="absolute top-1/2 -right-[480px] w-[400px] opacity-0 group-hover:opacity-100 transition-opacity duration-300 hidden lg:block">
-                  <div className="relative rounded-3xl shadow-2xl overflow-hidden transform -translate-y-1/2 ">
+                {/* Mobile Image */}
+                <div className="mt-4 lg:hidden">
+                  <div className="relative rounded-xl overflow-hidden aspect-video">
                     <Image
                       src={step.image}
                       alt={step.title}
-                      width={800}
-                      height={600}
+                      fill
                       className="object-cover"
                     />
-                    <div className="absolute inset-0 ring-1 ring-inset ring-black/10" />
                   </div>
                 </div>
-              </div>
+              </motion.div>
             ))}
           </div>
 
-          {/* CTA Column (Mobile Only) */}
-          <div className="lg:hidden text-center mt-8  p-6 rounded-2xl *:py-2">
-            <Link
-              href="about"
-              className="bg-rose-700 text-white px-8 py-4 rounded-xl text-xl font-semibold hover:bg-rose-800 transition-colors"
-            >
-              Start Free Trial
-            </Link>
-            <p className="mt-2 text-slate-600 text-md font-medium">
-              7-day free trial • No credit card required
-            </p>
+          {/* Image Showcase (Desktop) */}
+          <div className="hidden lg:block sticky top-24 h-[600px]">
+            <div className="relative rounded-3xl shadow-2xl overflow-hidden h-full border-8 border-white">
+              <Image
+                src="/images/digital-companion-hero.jpg"
+                alt="Digital Companion Preview"
+                fill
+                className="object-cover"
+              />
+              <div className="absolute inset-0 bg-gradient-to-t from-purple-900/20 via-purple-900/10 to-transparent" />
+            </div>
           </div>
         </div>
 
-        {/* Desktop CTA */}
-        <div className="text-center mt-16 hidden lg:block p-10 *:py-2 rounded-2xl">
-          <Link
-            href="about"
-            className="bg-rose-700 text-white px-8 py-5 rounded-xl text-xl font-semibold hover:bg-rose-800 transition-colors"
-          >
-            Start Your Free Trial Now
-          </Link>
-          <p className="mt-4 text-slate-600 text-lg font-medium">
-            Complete setup in 5 minutes • Cancel anytime
-          </p>
-        </div>
+        {/* Unified CTA */}
+        <motion.div
+          initial={{ opacity: 0, y: 20 }}
+          whileInView={{ opacity: 1, y: 0 }}
+          viewport={{ once: true }}
+          className="text-center mt-16"
+        >
+          <div className="bg-white rounded-2xl p-8 shadow-lg inline-block">
+            <h3 className="text-xl font-semibold text-stone-800 mb-4">
+              Ready to Transform Senior Care?
+            </h3>
+            <Link
+              href="/signup"
+              className="bg-purple-600 hover:bg-purple-700 text-white px-8 py-4 rounded-lg text-lg font-semibold transition-colors inline-flex items-center gap-2"
+            >
+              Start Free Digital Trial
+              <ArrowRightIcon className="w-5 h-5" />
+            </Link>
+            <p className="mt-4 text-stone-600 text-sm">
+              Includes 7-day digital companion access + Care Kit ordering
+            </p>
+          </div>
+        </motion.div>
       </div>
     </section>
   );
 }
+
 export default GettingStarted;

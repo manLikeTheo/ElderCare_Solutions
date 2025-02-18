@@ -131,7 +131,7 @@ function Contact_Us() {
               >
                 <Button
                   type="submit"
-                  className="w-full py-4 bg-purple-600 hover:bg-purple-700 text-white font-semibold rounded-lg text-lg transition-colors"
+                  className="w-full py-6 bg-gradient-to-r from-sky-800 via-cyan-600 to-sky-800 hover:bg-purple-800 text-white font-semibold rounded-xl text-xl transition-colors"
                 >
                   Send Message
                 </Button>
@@ -212,7 +212,7 @@ function Contact_Us() {
 
                   <Button
                     onClick={openWhatsApp}
-                    className="text-white mt-4  hover:scale-105 transition-all   bg-teal-500 p-5 text-xl rounded-xl font-semibold hover:bg-teal-700"
+                    className="text-white mt-4  hover:scale-105 transition-all   bg-gradient-to-r from-sky-800 via-cyan-600 to-sky-800 p-5 text-xl rounded-xl font-semibold hover:bg-teal-700"
                   >
                     Chat Now
                   </Button>
