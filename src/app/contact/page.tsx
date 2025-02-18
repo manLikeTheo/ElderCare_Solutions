@@ -80,7 +80,7 @@ function Contact_Us() {
               <div>
                 <label
                   htmlFor="name"
-                  className="block text-lg font-medium text-stone-700 mb-2"
+                  className="block text-xl font-semibold text-stone-700 mb-2"
                 >
                   Your Name
                 </label>
@@ -96,7 +96,7 @@ function Contact_Us() {
               <div>
                 <label
                   htmlFor="email"
-                  className="block text-lg font-medium text-stone-700 mb-2"
+                  className="block text-xl font-semibold text-stone-700 mb-2"
                 >
                   Your Email
                 </label>
@@ -112,7 +112,7 @@ function Contact_Us() {
               <div>
                 <label
                   htmlFor="message"
-                  className="block text-lg font-medium text-stone-700 mb-2"
+                  className="block text-xl font-semibold text-stone-700 mb-2"
                 >
                   Your Message
                 </label>
@@ -148,7 +148,7 @@ function Contact_Us() {
             className="space-y-8 bg-white rounded-2xl shadow-xl p-8 lg:p-12"
           >
             <h2 className="text-2xl font-bold text-purple-900 mb-6">
-              Reach Out Directly
+              Our Contacts
             </h2>
 
             <div className="space-y-6">
@@ -161,11 +161,15 @@ function Contact_Us() {
                   <FaEnvelope className="text-purple-600 text-2xl" />
                 </div>
                 <div>
-                  <h3 className="text-lg font-semibold text-stone-700">
+                  <h3 className="text-xl font-semibold text-stone-700">
                     Email
                   </h3>
-                  <p className="text-stone-600">contact@wellagedcare.com</p>
-                  <p className="text-stone-600">support@wellagedcare.com</p>
+                  <p className="text-stone-600 font-medium text-lg">
+                    contact@wellagedcare.com
+                  </p>
+                  <p className="text-stone-600 font-medium">
+                    support@wellagedcare.com
+                  </p>
                 </div>
               </motion.div>
 
@@ -178,11 +182,15 @@ function Contact_Us() {
                   <FaPhone className="text-purple-600 text-2xl" />
                 </div>
                 <div>
-                  <h3 className="text-lg font-semibold text-stone-700">
+                  <h3 className="text-xl font-semibold text-stone-700">
                     Phone
                   </h3>
-                  <p className="text-stone-600">+234 123 456 7890</p>
-                  <p className="text-stone-600">+234 098 765 4321</p>
+                  <p className="text-stone-600 text-lg font-medium">
+                    +234 901 705 1564
+                  </p>
+                  <p className="text-stone-600 text-lg font-medium">
+                    +234 900 123 4567
+                  </p>
                 </div>
               </motion.div>
 
@@ -195,10 +203,10 @@ function Contact_Us() {
                   <FaPhone className="text-purple-600 text-2xl" />
                 </div>
                 <div>
-                  <h3 className="text-lg font-semibold text-stone-700">
+                  <h3 className="text-xl font-semibold text-stone-700">
                     WhatsApp
                   </h3>
-                  <p className="text-stone-600">
+                  <p className="text-stone-600 text-lg font-medium">
                     Click below to chat with us on whatsapp!
                   </p>
 
