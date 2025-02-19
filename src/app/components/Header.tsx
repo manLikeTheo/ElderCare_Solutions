@@ -10,7 +10,7 @@ const Header = () => {
   const [isDropdownOpen, setIsDropdownOpen] = useState(false);
   const [isMenuOpen, setIsMenuOpen] = useState(false);
   return (
-    <nav className="flex group justify-between gap-8 items-center px-8 bg-sky-800/90 shadow-sm shadow-sky-900 z-50 relative">
+    <nav className="flex group justify-between gap-8 items-center px-8 bg-gradient-to-r from-blue-900 via-cyan-600 to-blue-900 shadow-sm shadow-sky-900 z-50 relative">
       {/* Logo */}
       <Link href={`/`} className="hover:scale-90 w-auto h-auto">
         <Image

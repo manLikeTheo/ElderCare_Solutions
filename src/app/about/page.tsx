@@ -43,7 +43,7 @@ function About_Us() {
 
         <div className="relative z-10 container mx-auto px-6 lg:px-20">
           <div className="max-w-2xl bg-white/90 p-8 rounded-2xl shadow-xl backdrop-blur-xl">
-            <h1 className="text-5xl lg:text-6xl font-bold text-rose-800 mb-6 tracking-wide">
+            <h1 className="text-5xl lg:text-6xl font-bold text-blue-900 mb-6 tracking-wide">
               Redefining Elder Care in Africa
             </h1>
             <p className="text-lg text-stone-700">
@@ -68,7 +68,7 @@ function About_Us() {
           <div className="grid lg:grid-cols-2 gap-12 items-center">
             {/* Story Text */}
             <div className="space-y-8">
-              <h2 className="text-4xl font-bold text-purple-900">
+              <h2 className="text-4xl bg-clip-text font-bold text-blue-900">
                 "Born out of Lived Experience"
               </h2>
 
@@ -83,8 +83,8 @@ function About_Us() {
                   - the loneliness, fear, and daily struggles that followed.
                 </p>
 
-                <div className="bg-red-50 p-6 rounded-xl border-l-4 border-red-500">
-                  <p className="text-stone-600">
+                <div className="bg-gradient-to-r from-blue-900 via-cyan-600 to-blue-900 p-6 rounded-xl border-l-8 border-rose-500">
+                  <p className="text-stone-100">
                     "We watched his world shrink to a single room, his
                     independence stolen by a healthcare system that only
                     measures blood pressure, not quality of life."
@@ -108,7 +108,7 @@ function About_Us() {
         </div>
 
         {/* Problem Statement Section */}
-        <div className="bg-purple-900 text-white py-20">
+        <div className="bg-gradient-to-r from-blue-900 via-cyan-600 to-blue-900 text-white py-20">
           <div className="container mx-auto px-6 lg:px-20">
             <h3 className="text-3xl font-bold text-center mb-16">
               Nigeria's Elder Care Crisis
@@ -116,7 +116,7 @@ function About_Us() {
 
             <div className="grid md:grid-cols-3 gap-8 mt-8">
               {/* Care System Breakdown Card */}
-              <div className="bg-white/10 p-8 rounded-xl">
+              <div className="bg-white/40 p-8 rounded-xl">
                 <div className="text-4xl mb-4">🏚️</div>
                 <h4 className="text-xl font-bold mb-4">Broken Care System</h4>
                 <ul className="list-disc pl-5 space-y-2 text-stone-100/90">
@@ -133,7 +133,7 @@ function About_Us() {
               </div>
 
               {/* Domestic Accidents Card */}
-              <div className="bg-white/10 p-8 rounded-xl">
+              <div className="bg-white/40 p-8 rounded-xl">
                 <div className="text-4xl mb-4">⚠️</div>
                 <h4 className="text-xl font-bold mb-4">
                   Silent Killers at Home
@@ -152,7 +152,7 @@ function About_Us() {
               </div>
 
               {/* Social Isolation Card */}
-              <div className="bg-white/10 p-8 rounded-xl">
+              <div className="bg-white/40 p-8 rounded-xl">
                 <div className="text-4xl mb-4">😔</div>
                 <h4 className="text-xl font-bold mb-4">Invisible Suffering</h4>
                 <ul className="list-disc pl-5 space-y-2 text-stone-100/90">
@@ -170,11 +170,11 @@ function About_Us() {
             </div>
 
             {/* JAPA Wave Impact */}
-            <div className="mt-16 bg-violet-50/30 p-10 rounded-xl text-center">
-              <div className="inline-block bg-white/95 text-purple-900 px-6 py-2 rounded-full mb-4 font-bold text-2xl">
+            <div className="mt-16 bg-violet-50/40 p-10 rounded-xl text-center">
+              <div className="inline-block bg-white/95 text-sky-900 px-6 py-2 rounded-full mb-4 font-bold text-2xl">
                 The JAPA Effect
               </div>
-              <p className="text-xl italic">
+              <p className="text-xl italic tracking-wide">
                 With 144,000+ young Nigerians emigrating annually, traditional
                 family care structures are collapsing faster than ever before.
                 Older adults are turning "ElderLy Orphans suddenly."
@@ -205,12 +205,12 @@ function About_Us() {
 
         {/* Bridge to Solution */}
         <div className="container mx-auto px-6 lg:px-20 py-20">
-          <div className="bg-violet-200 rounded-2xl shadow-xl p-12 text-center">
-            <h3 className="text-3xl font-bold text-purple-900 mb-8">
+          <div className="bg-gradient-to-r from-blue-900 via-cyan-600 to-blue-900 rounded-2xl shadow-xl p-12 text-center">
+            <h3 className="text-3xl font-bold text-white mb-8">
               This is why we built WellAged Care+
             </h3>
             <div className="max-w-2xl mx-auto">
-              <p className="text-xl text-stone-600 mb-8">
+              <p className="text-xl text-stone-100/90 mb-8">
                 After consulting seniors, families, and care experts, we
                 discovered three painful truths:
               </p>
@@ -234,7 +234,7 @@ function About_Us() {
                   </p>
                 </div>
               </div>
-              <button className="mt-12 bg-purple-900 text-white px-8 py-4 rounded-full font-semibold hover:bg-purple-800 transition-colors">
+              <button className="mt-12 bg-gradient-to-r from-cyan-500 via-sky-300 to-cyan-500 text-white text-lg px-8 py-4 rounded-full font-semibold hover:bg-purple-800 transition-colors">
                 Discover Our Solutions
               </button>
             </div>
@@ -257,7 +257,7 @@ function About_Us() {
               <h3 className="text-2xl font-bold mb-4">
                 Digital Companion Platform
               </h3>
-              <p className="text-red-600 font-medium mb-4 text-md tracking-wide">
+              <p className="text-rose-600 font-medium mb-4 text-md tracking-wide">
                 Addressing digital exclusion & loneliness for 82% of Nigerian
                 seniors
               </p>
@@ -269,16 +269,16 @@ function About_Us() {
                 <li>Daily check-ins via voice commands</li>
                 <li>Virtual care management hub for families</li>
               </ul>
-              <button className="mt-6 text-purple-900 font-semibold flex items-center">
+              <button className="mt-6 text-blue-900 font-semibold flex items-center">
                 See Platform Demo →
               </button>
             </div>
 
             {/* Care Kits */}
             <div className="bg-white p-8 rounded-2xl shadow-lg hover:shadow-xl transition-shadow">
-              <div className="text-purple-900 text-4xl mb-6">👜</div>
+              <div className="text-blue-900 text-4xl mb-6">👜</div>
               <h3 className="text-2xl font-bold mb-4">Elderly Care Kits</h3>
-              <p className="text-red-600 font-medium mb-4 text-md tracking-wide">
+              <p className="text-rose-600 font-medium mb-4 text-md tracking-wide">
                 Preventing 60% of common senior complications & domestic
                 accidents - with practical tools in one care package
               </p>
@@ -288,7 +288,7 @@ function About_Us() {
                 <li>Cognitive stimulation & engagement kits</li>
                 <li>Diet and nutrition products</li>
               </ul>
-              <button className="mt-6 text-purple-900 font-semibold flex items-center">
+              <button className="mt-6 text-blue-900 font-semibold flex items-center">
                 View Kit Contents →
               </button>
             </div>
@@ -299,7 +299,7 @@ function About_Us() {
               <h3 className="text-2xl font-bold mb-4">
                 Community-Powered Care & Support Network
               </h3>
-              <p className="text-red-600 font-medium mb-4 text-md tracking-wide">
+              <p className="text-rose-600 font-medium mb-4 text-md tracking-wide">
                 Bridging care access gaps for 73% of diaspora families
               </p>
               <ul className="list-check pl-5 space-y-2 text-stone-600 font-medium">
@@ -308,7 +308,7 @@ function About_Us() {
                 <li>Local senior social clubs</li>
                 <li>Real-time updates between caregivers and families</li>
               </ul>
-              <button className="mt-6 text-purple-900 font-semibold flex items-center">
+              <button className="mt-6 text-blue-900 font-semibold flex items-center">
                 Meet Our Caregivers →
               </button>
             </div>
@@ -325,20 +325,20 @@ function About_Us() {
             className="rounded-3xl shadow-2xl"
           />
           <div className="space-y-8">
-            <div className="inline-block bg-violet-100 text-purple-900 px-8 py-3 rounded-full text-2xl font-bold">
+            <div className="inline-block bg-violet-100 text-blue-900 px-8 py-4 rounded-full text-2xl tracking-wide font-bold">
               Our Edge
             </div>
             <h2 className="text-4xl font-bold text-stone-900">
               More Than Just Senior Care—A Complete Ecosystem
             </h2>
             <div className="space-y-6">
-              <div className="flex items-start gap-4 bg-white p-6 rounded-xl">
+              <div className="flex items-start gap-4 bg-gradient-to-r from-blue-400 via-cyan-200 to-blue-400 p-6 rounded-xl">
                 <div className="text-purple-900 text-2xl">🌍</div>
                 <div>
                   <h4 className="text-xl font-bold">
                     Created by Those Who Understand the Struggle
                   </h4>
-                  <p className="text-stone-600 tracking-wide">
+                  <p className="text-stone-800 font-medium tracking-wide">
                     Born from real-life challenges, our solution goes beyond
                     conventional elder care. We’ve experienced firsthand the
                     gaps in traditional healthcare, and we've designed a system
@@ -347,13 +347,13 @@ function About_Us() {
                   </p>
                 </div>
               </div>
-              <div className="flex items-start gap-4 bg-white p-6 rounded-xl">
+              <div className="flex items-start gap-4 bg-gradient-to-r from-blue-400 via-cyan-200 to-blue-400 p-6 rounded-xl">
                 <div className="text-purple-900 text-2xl">💡</div>
                 <div>
                   <h4 className="text-xl font-bold">
                     Holistic Approach, Beyond the Basics{" "}
                   </h4>
-                  <p className="text-stone-600 tracking-wide">
+                  <p className="text-stone-800 font-medium tracking-wide">
                     Unlike traditional models that focus solely on medical
                     visits or caregiver matching, our comprehensive ecosystem
                     integrates digital tools, community support, in-person care,
@@ -411,7 +411,7 @@ function About_Us() {
       </section>
 
       {/* Mission - Vision */}
-      <section className="bg-purple-900 text-white py-24">
+      <section className="bg-gradient-to-r from-blue-900 via-cyan-600 to-blue-900 text-white py-24">
         <div className="container mx-auto px-6 lg:px-20 text-center">
           <div className="max-w-3xl mx-auto">
             {/* Mission */}
@@ -422,11 +422,11 @@ function About_Us() {
               </h2>
               <p className="text-xl leading-relaxed">
                 To revolutionize elder care in Africa by providing
-                <span className="block font-semibold text-purple-200">
+                <span className="block font-semibold text-black">
                   holistic, dignity-first solutions
                 </span>
                 that bridge the care gap between seniors and their families,
-                <span className="block font-semibold text-purple-200">
+                <span className="block font-semibold text-black">
                   regardless of distance.
                 </span>
               </p>
@@ -440,11 +440,11 @@ function About_Us() {
               </h2>
               <p className="text-xl leading-relaxed">
                 A future where every African senior thrives with
-                <span className="block font-semibold text-purple-200">
+                <span className="block font-semibold text-black">
                   purpose, safety, and connection,
                 </span>
                 transforming aging from a challenge into a
-                <span className="block font-semibold text-purple-200">
+                <span className="block font-semibold text-black">
                   cherished life chapter.
                 </span>
               </p>
@@ -454,7 +454,7 @@ function About_Us() {
       </section>
 
       {/* Progress CTA */}
-      <section className="bg-purple-900 text-white py-20">
+      <section className="bg-gradient-to-r from-blue-900 via-cyan-600 to-blue-900 text-white py-20 border-t-4 border-white/20">
         <div className="container mx-auto px-6 lg:px-20 text-center">
           <div className="max-w-2xl mx-auto">
             <h2 className="text-4xl font-bold mb-8">
@@ -470,7 +470,7 @@ function About_Us() {
                 <div>Months to Beta Launch</div>
               </div>
             </div>
-            <button className="bg-white text-purple-900 px-8 py-4 rounded-full font-semibold hover:bg-purple-50 transition-all">
+            <button className="bg-white text-sky-900 text-lg px-8 py-4 rounded-full font-bold hover:bg-purple-50 transition-all">
               Be a Beta Tester
             </button>
           </div>

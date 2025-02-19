@@ -23,6 +23,19 @@ export default {
           DEFAULT: "hsl(var(--popover))",
           foreground: "hsl(var(--popover-foreground))",
         },
+        "deep-blue": {
+          50: "#f0f6ff",
+          100: "#d6e4ff",
+          200: "#adc8ff",
+          300: "#85abf5",
+          400: "#5d8eeb",
+          500: "#407bad", // Your specified blue
+          600: "#2c5f96",
+          700: "#1b447e",
+          800: "#0f2a65",
+          900: "#050b4b", // Darkest blue
+        },
+
         primary: {
           DEFAULT: "hsl(var(--primary))",
           foreground: "hsl(var(--primary-foreground))",
