@@ -43,7 +43,7 @@ function About_Us() {
 
         <div className="relative z-10 container mx-auto px-6 lg:px-20">
           <div className="max-w-2xl bg-white/90 p-8 rounded-2xl shadow-xl backdrop-blur-xl">
-            <h1 className="text-5xl lg:text-6xl font-bold text-blue-900 mb-6 tracking-wide">
+            <h1 className="text-5xl lg:text-6xl font-bold bg-gradient-to-t from-blue-900 via-cyan-500 to-blue-900 bg-clip-text text-transparent mb-6 tracking-wider">
               Redefining Elder Care in Africa
             </h1>
             <p className="text-lg text-stone-700">
@@ -324,15 +324,15 @@ function About_Us() {
             alt="Cultural care"
             className="rounded-3xl shadow-2xl"
           />
-          <div className="space-y-8">
-            <div className="inline-block bg-violet-100 text-blue-900 px-8 py-4 rounded-full text-2xl tracking-wide font-bold">
+          <div className="space-y-8 md:space-y-12">
+            <div className="inline-block bg-stone-200 text-blue-900 px-8 py-4 rounded-3xl text-3xl tracking-wide font-extrabold">
               Our Edge
             </div>
             <h2 className="text-4xl font-bold text-stone-900">
               More Than Just Senior Care—A Complete Ecosystem
             </h2>
             <div className="space-y-6">
-              <div className="flex items-start gap-4 bg-gradient-to-r from-blue-400 via-cyan-200 to-blue-400 p-6 rounded-xl">
+              <div className="flex items-start gap-4 bg-gradient-to-t from-sky-600/70 via-cyan-200/70 to-sky-600/70 p-6 rounded-xl">
                 <div className="text-purple-900 text-2xl">🌍</div>
                 <div>
                   <h4 className="text-xl font-bold">
@@ -347,7 +347,7 @@ function About_Us() {
                   </p>
                 </div>
               </div>
-              <div className="flex items-start gap-4 bg-gradient-to-r from-blue-400 via-cyan-200 to-blue-400 p-6 rounded-xl">
+              <div className="flex items-start gap-4 bg-gradient-to-t from-sky-600/70 via-cyan-200/70 to-sky-600/70 p-6 rounded-xl">
                 <div className="text-purple-900 text-2xl">💡</div>
                 <div>
                   <h4 className="text-xl font-bold">

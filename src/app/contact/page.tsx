@@ -59,7 +59,7 @@ function Contact_Us() {
           transition={{ duration: 0.5 }}
           className="text-center mb-16"
         >
-          <h1 className="text-4xl lg:text-5xl font-bold text-purple-900 mb-4">
+          <h1 className="text-4xl lg:text-5xl font-extrabold tracking-wider bg-gradient-to-r from-blue-900 via-cyan-600 to-blue-900 text-transparent bg-clip-text mb-4">
             Reach Out To Us
           </h1>
           <p className="text-xl text-stone-600 max-w-2xl mx-auto">
@@ -74,7 +74,7 @@ function Contact_Us() {
             initial={{ opacity: 0, x: -20 }}
             animate={{ opacity: 1, x: 0 }}
             transition={{ delay: 0.2 }}
-            className="bg-white rounded-2xl shadow-xl p-8 lg:p-12"
+            className="bg-white rounded-2xl shadow-xl p-10 lg:p-12"
           >
             <div className="space-y-6">
               <div>
@@ -88,7 +88,7 @@ function Contact_Us() {
                   type="text"
                   id="name"
                   onChange={handleChange}
-                  className="w-full px-4 py-3 rounded-lg border border-stone-200 focus:border-purple-500 focus:ring-2 focus:ring-purple-200 transition-all"
+                  className="w-full px-4 py-3 rounded-xl tracking-wide font-medium border border-stone-200 focus:border-purple-500 focus:ring-2 focus:ring-purple-200 transition-all"
                   placeholder="Enter your full name"
                 />
               </div>
@@ -104,7 +104,7 @@ function Contact_Us() {
                   type="email"
                   id="email"
                   onChange={handleChange}
-                  className="w-full px-4 py-3 rounded-lg border border-stone-200 focus:border-purple-500 focus:ring-2 focus:ring-purple-200 transition-all"
+                  className="w-full px-4 py-3 rounded-xl font-medium tracking-wide border border-stone-200 focus:border-purple-500 focus:ring-2 focus:ring-purple-200 transition-all"
                   placeholder="hello@example.com"
                 />
               </div>
@@ -120,7 +120,7 @@ function Contact_Us() {
                   id="message"
                   onChange={handleChange}
                   rows={4}
-                  className="w-full px-4 py-3 rounded-lg border border-stone-200 focus:border-purple-500 focus:ring-2 focus:ring-purple-200 transition-all"
+                  className="w-full px-4 py-5 rounded-xl font-medium border border-stone-200 focus:border-purple-500 focus:ring-2 focus:ring-purple-200 transition-all"
                   placeholder="How can we help you today?"
                 />
               </div>
@@ -131,7 +131,7 @@ function Contact_Us() {
               >
                 <Button
                   type="submit"
-                  className="w-full py-6 bg-gradient-to-r from-sky-800 via-cyan-600 to-sky-800 hover:bg-purple-800 text-white font-semibold rounded-xl text-xl transition-colors"
+                  className="w-full py-6 bg-gradient-to-r from-blue-800 via-cyan-500 to-blue-800 hover:bg-purple-800 text-white font-semibold rounded-xl text-xl transition-colors"
                 >
                   Send Message
                 </Button>
@@ -158,7 +158,7 @@ function Contact_Us() {
                 className="flex items-start gap-4 p-4 rounded-xl bg-purple-50"
               >
                 <div className="p-3 bg-purple-100 rounded-lg">
-                  <FaEnvelope className="text-purple-600 text-2xl" />
+                  <FaEnvelope className="text-blue-600 text-2xl" />
                 </div>
                 <div>
                   <h3 className="text-xl font-semibold text-stone-700">
@@ -179,7 +179,7 @@ function Contact_Us() {
                 className="flex items-start gap-4 p-4 rounded-xl bg-purple-50"
               >
                 <div className="p-3 bg-purple-100 rounded-lg">
-                  <FaPhone className="text-purple-600 text-2xl" />
+                  <FaPhone className="text-blue-700 text-2xl" />
                 </div>
                 <div>
                   <h3 className="text-xl font-semibold text-stone-700">
@@ -200,7 +200,7 @@ function Contact_Us() {
                 className="flex items-start gap-4 p-4 rounded-xl bg-purple-50"
               >
                 <div className="p-3 bg-purple-100 rounded-lg">
-                  <FaPhone className="text-purple-600 text-2xl" />
+                  <FaPhone className="text-blue-700 text-2xl" />
                 </div>
                 <div>
                   <h3 className="text-xl font-semibold text-stone-700">
@@ -212,7 +212,7 @@ function Contact_Us() {
 
                   <Button
                     onClick={openWhatsApp}
-                    className="text-white mt-4  hover:scale-105 transition-all   bg-gradient-to-r from-sky-800 via-cyan-600 to-sky-800 p-5 text-xl rounded-xl font-semibold hover:bg-teal-700"
+                    className="text-white mt-4  hover:scale-105 transition-all   bg-gradient-to-r from-blue-800 via-cyan-500 to-blue-800 p-5 text-xl rounded-xl font-semibold hover:bg-teal-700"
                   >
                     Chat Now
                   </Button>

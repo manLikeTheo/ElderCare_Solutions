@@ -4,7 +4,7 @@ import senior_care_ondemand from "../../../../public/images/senior_care_ondemand
 import caregivers_network from "../../../../public/images/caregivers_network.png";
 function WhyPeopleLove() {
   return (
-    <div className="flex flex-col justify-center py-12 bg-stone-200">
+    <section className="flex flex-col justify-center py-12 bg-blue-50">
       <h1 className="text-5xl font-bold text-stone-900 text-center p-12">
         Why Families <span>Trust</span>{" "}
         <b className="text-rose-700">WellAged Care</b>
@@ -12,7 +12,7 @@ function WhyPeopleLove() {
 
       <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 place-items-center gap-8 px-10 max-container">
         {/* Card 1: Affordability */}
-        <div className="bg-white p-8 rounded-2xl border-4 border-slate-600 shadow-lg hover:shadow-xl transition-shadow">
+        <div className="bg-white p-8 rounded-2xl ring-8 ring-slate-400 shadow-lg hover:shadow-xl transition-shadow">
           <Image
             src={save_cost} // Consider using a money+heart icon
             alt="Affordable care"
@@ -41,7 +41,7 @@ function WhyPeopleLove() {
         </div>
 
         {/* Card 2: Trusted Care */}
-        <div className="bg-white p-8 rounded-2xl border-4 border-slate-600 shadow-lg hover:shadow-xl transition-shadow">
+        <div className="bg-white p-8 rounded-2xl ring-8 ring-slate-400 shadow-lg hover:shadow-xl transition-shadow">
           <Image
             src={caregivers_network}
             alt="Vetted caregivers"
@@ -66,7 +66,7 @@ function WhyPeopleLove() {
         </div>
 
         {/* Card 3: Convenience */}
-        <div className="bg-white p-8 rounded-2xl border-4 border-slate-600 shadow-lg hover:shadow-xl transition-shadow flex flex-col items-center justify-center">
+        <div className="bg-white p-8 rounded-2xl ring-8 ring-slate-400 shadow-lg hover:shadow-xl transition-shadow flex flex-col items-center justify-center">
           <Image
             src={senior_care_ondemand}
             alt="Instant booking"
@@ -101,7 +101,7 @@ function WhyPeopleLove() {
           ⚕️ Vetted and Trained Services Providers!
         </div>
       </div>
-    </div>
+    </section>
   );
 }
 

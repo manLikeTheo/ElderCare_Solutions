@@ -29,7 +29,7 @@ const LandingPage_Hero = () => {
         </p>
         <div className="hero-buttons flex  items-center justify-center gap-8">
           <Link href="/about">
-            <Button className="btn rounded-xl  bg-rose-600 text-white p-6 font-semibold text-xl hover:bg-rose-700 hover:text-white/90 hover:scale-105 transition-all duration-300 ease-in-out">
+            <Button className="btn rounded-xl bg-gradient-to-r from-blue-800 via-cyan-500 to-blue-800 text-white p-6 font-semibold text-xl hover:scale-105 transition-all duration-300 ease-in-out">
               Learn More About Us
             </Button>
           </Link>
@@ -37,18 +37,30 @@ const LandingPage_Hero = () => {
         {/* Statistics */}
         <div className="flex justify-start items-start flex-wrap gap-8 w-full mt-16">
           <div className="flex flex-col gap-2 pr-8 border-r-2 border-rose-100">
-            <h3 className="text-4xl font-bold text-rose-700">1K+</h3>
-            <p className="text-slate-600 font-medium">Seniors Helped</p>
+            <h3 className="text-5xl font-bold bg-gradient-to-t from-blue-900/70 via-cyan-500 to-blue-900/70 bg-clip-text text-transparent tracking-wide">
+              1000 +
+            </h3>
+            <p className="text-slate-600 font-medium text-lg tracking-wider">
+              Seniors Helped
+            </p>
           </div>
 
           <div className="flex flex-col gap-2 pr-8 border-r-2 border-rose-100">
-            <h3 className="text-4xl font-bold text-rose-700">98%</h3>
-            <p className="text-slate-600 font-medium">Satisfaction Rate</p>
+            <h3 className="text-5xl font-bold bg-gradient-to-t from-blue-900/70 via-cyan-500 to-blue-900/70 bg-clip-text text-transparent tracking-wide">
+              98%
+            </h3>
+            <p className="text-slate-600  font-medium text-lg tracking-wider">
+              Satisfaction Rate
+            </p>
           </div>
 
           <div className="flex flex-col gap-2">
-            <h3 className="text-4xl font-bold text-rose-700">87%</h3>
-            <p className="text-slate-600 font-medium">Digital Adoption</p>
+            <h3 className="text-5xl font-bold bg-gradient-to-t from-blue-900/70 via-cyan-500 to-blue-900/70 bg-clip-text text-transparent tracking-wide">
+              87%
+            </h3>
+            <p className="text-slate-600 font-medium text-lg tracking-wider">
+              Digital Adoption
+            </p>
           </div>
         </div>
       </div>

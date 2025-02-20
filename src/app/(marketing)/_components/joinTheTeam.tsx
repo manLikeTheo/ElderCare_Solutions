@@ -7,12 +7,12 @@ import Link from "next/link";
 
 export default function VibrantJoinTeam() {
   return (
-    <section className="min-h-[400px] w-full bg-gradient-to-br from-indigo-800 via-violet-700 to-rose-500 p-8 relative overflow-hidden">
+    <section className="min-h-[400px] w-full bg-gradient-to-l from-blue-900 via-cyan-700 to-blue-900 p-8 relative overflow-hidden">
       {/* Animated background elements */}
       <div className="absolute inset-0 overflow-hidden">
         {/* Dynamic geometric shapes */}
         <motion.div
-          className="w-64 h-64 rounded-full bg-yellow-300/30 absolute -right-20 -top-20 blur-lg"
+          className="w-64 h-64 rounded-full bg-cyan-300/70 absolute -right-20 -top-20 blur-lg"
           animate={{
             scale: [1, 1.2, 1],
             rotate: [0, 90, 0],
@@ -24,7 +24,7 @@ export default function VibrantJoinTeam() {
           }}
         />
         <motion.div
-          className="w-96 h-96 rounded-full bg-cyan-400/30 absolute -left-32 -bottom-32 blur-lg"
+          className="w-96 h-96 rounded-full bg-cyan-400/40 absolute -left-32 -bottom-32 blur-lg"
           animate={{
             scale: [1.2, 1, 1.2],
             rotate: [90, 0, 90],
@@ -111,15 +111,15 @@ export default function VibrantJoinTeam() {
           >
             <Link href="/contact">
               <Button
-                className="bg-gradient-to-r from-rose-500 via-pink-500 to-violet-700 text-white 
+                className="bg-gradient-to-r from-blue-900 via-cyan-500 to-violet-900 text-white 
                          px-12 py-6 text-xl rounded-xl font-bold
-                         transform transition-all duration-300 hover:scale-105 
+                         transform transition-all duration-300 hover:scale-110 
                          hover:shadow-[0_0_30px_rgba(236,72,153,0.5)]
                          relative overflow-hidden group"
               >
                 <span className="relative z-10">Get Onboard</span>
                 <motion.div
-                  className="absolute inset-0 bg-gradient-to-r from-violet-500 via-pink-400 to-violet-800"
+                  className="absolute inset-0 bg-gradient-to-r from-violet-700 via-cyan-400 to-violet-900"
                   animate={{
                     x: ["0%", "100%", "0%"],
                   }}

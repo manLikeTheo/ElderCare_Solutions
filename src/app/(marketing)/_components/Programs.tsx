@@ -3,7 +3,7 @@ import { productOfferings } from "@/app/_data/product_offering";
 
 function Programs() {
   return (
-    <section className="py-16 bg-sky-700 ">
+    <section className="py-16 bg-gradient-to-r from-blue-900/90 via-cyan-500/70 to-blue-900/90">
       <div className="container px-10 mx-auto  py-4 md:px-8">
         <div className="text-center mb-12">
           <h1 className="text-4xl md:text-5xl font-bold text-white mb-4">

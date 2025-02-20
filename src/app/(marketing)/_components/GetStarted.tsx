@@ -45,7 +45,7 @@ function GettingStarted() {
   ];
 
   return (
-    <section className="py-20 bg-purple-50">
+    <section className="py-20 bg-gradient-to-r from-blue-900/90 via-cyan-500/70 to-blue-900/90">
       <div className="container mx-auto px-4">
         <motion.div
           initial={{ opacity: 0, y: 20 }}
@@ -53,10 +53,10 @@ function GettingStarted() {
           viewport={{ once: true }}
           className="text-center mb-16"
         >
-          <h2 className="text-4xl md:text-5xl font-bold text-purple-900 mb-4">
+          <h2 className="text-4xl md:text-5xl font-extrabold md:font-bold tracking-wide text-white/95 mb-4">
             Start Your Care Journey in 4 Steps
           </h2>
-          <p className="text-lg text-stone-600 max-w-3xl mx-auto">
+          <p className="text-lg text-white/90 tracking-wide font-medium max-w-3xl mx-auto">
             Seamlessly blend digital care tools with physical wellness solutions
           </p>
         </motion.div>
@@ -133,7 +133,7 @@ function GettingStarted() {
             </h3>
             <Link
               href="/signup"
-              className="bg-purple-600 hover:bg-purple-700 text-white px-8 py-4 rounded-lg text-lg font-semibold transition-colors inline-flex items-center gap-2"
+              className="bg-gradient-to-r from-blue-800 via-cyan-500 to-blue-800 text-white px-8 py-4 rounded-lg text-lg font-semibold transition-colors inline-flex items-center gap-2"
             >
               Start Free Digital Trial
               <ArrowRightIcon className="w-5 h-5" />
