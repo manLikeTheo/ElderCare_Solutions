@@ -88,7 +88,7 @@ function Contact_Us() {
                   type="text"
                   id="name"
                   onChange={handleChange}
-                  className="w-full px-4 py-3 rounded-xl tracking-wide font-medium border border-stone-200 focus:border-purple-500 focus:ring-2 focus:ring-purple-200 transition-all"
+                  className="w-full px-4 py-3 rounded-xl text-lg tracking-wider font-medium border border-stone-200 focus:border-blue-500 focus:ring-2 focus:ring-blue-200 transition-all"
                   placeholder="Enter your full name"
                 />
               </div>
@@ -104,7 +104,7 @@ function Contact_Us() {
                   type="email"
                   id="email"
                   onChange={handleChange}
-                  className="w-full px-4 py-3 rounded-xl font-medium tracking-wide border border-stone-200 focus:border-purple-500 focus:ring-2 focus:ring-purple-200 transition-all"
+                  className="w-full px-4 py-3 rounded-xl text-lg font-medium tracking-wider border border-stone-200 focus:border-blue-500 focus:ring-2 focus:ring-blue-200 transition-all"
                   placeholder="hello@example.com"
                 />
               </div>
@@ -120,7 +120,7 @@ function Contact_Us() {
                   id="message"
                   onChange={handleChange}
                   rows={4}
-                  className="w-full px-4 py-5 rounded-xl font-medium border border-stone-200 focus:border-purple-500 focus:ring-2 focus:ring-purple-200 transition-all"
+                  className="w-full px-4 py-5 rounded-xl text-lg tracking-wider font-medium border border-stone-200 focus:border-blue-500 focus:ring-2 focus:ring-blue-200 transition-all"
                   placeholder="How can we help you today?"
                 />
               </div>
@@ -131,7 +131,7 @@ function Contact_Us() {
               >
                 <Button
                   type="submit"
-                  className="w-full py-6 bg-gradient-to-r from-blue-800 via-cyan-500 to-blue-800 hover:bg-purple-800 text-white font-semibold rounded-xl text-xl transition-colors"
+                  className="w-full py-6 bg-gradient-to-r from-blue-800 via-cyan-500 to-blue-800 text-white font-semibold rounded-xl text-xl transition-colors"
                 >
                   Send Message
                 </Button>
@@ -147,7 +147,7 @@ function Contact_Us() {
             transition={{ delay: 0.4 }}
             className="space-y-8 bg-white rounded-2xl shadow-xl p-8 lg:p-12"
           >
-            <h2 className="text-2xl font-bold text-purple-900 mb-6">
+            <h2 className="text-3xl font-bold tracking-wide bg-gradient-to-r from-blue-900 via-cyan-600 to-blue-900 text-transparent bg-clip-text mb-6">
               Our Contacts
             </h2>
 

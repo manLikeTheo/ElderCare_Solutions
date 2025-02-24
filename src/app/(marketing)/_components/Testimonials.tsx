@@ -66,7 +66,7 @@ const testimonials: Testimonial[] = [
 
 function Testimonials() {
   return (
-    <section className="py-10 bg-slate-50">
+    <section className="py-10 bg-blue-100/75">
       <div className="container mx-auto px-4">
         <h2 className="text-4xl font-bold text-center mb-8 text-slate-800">
           What Families Are Saying
@@ -118,7 +118,9 @@ function Testimonials() {
                     <h3 className="font-bold text-slate-800">
                       {testimonial.name}
                     </h3>
-                    <p className="text-slate-600 text-sm">{testimonial.role}</p>
+                    <p className="text-blue-800 font-medium tracking-wide text-sm">
+                      {testimonial.role}
+                    </p>
                   </div>
                 </div>
               </div>
@@ -130,7 +132,11 @@ function Testimonials() {
       <style jsx global>{`
         .swiper-button-next,
         .swiper-button-prev {
-          color: #be123c; /* Match your rose-700 color */
+          color: darkblue;
+          opacity: 0.6 !important;
+          width: 36px !important;
+          height: 36px !important;
+          border-radius: 50% !important;
         }
         .swiper-pagination {
           position: absolute;
@@ -138,7 +144,7 @@ function Testimonials() {
         }
 
         .swiper-pagination-bullet {
-          background-color: #be123c !important;
+          background-color: darkblue !important;
           opacity: 0.6 !important;
           width: 10px !important;
           height: 10px !important;
@@ -147,7 +153,7 @@ function Testimonials() {
         }
 
         .swiper-pagination-bullet-active {
-          background-color: #be123c !important;
+          background-color: darkblue !important;
           opacity: 1 !important;
           width: 15px !important;
           height: 15px !important;
@@ -162,7 +168,7 @@ function Testimonials() {
         // Add hover effect to buttons
         .swiper-button-next:hover,
         .swiper-button-prev:hover {
-          background: #be123c; /* Change background on hover */
+          background: blue; /* Change background on hover */
           color: white;
         }
 

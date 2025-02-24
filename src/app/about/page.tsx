@@ -254,14 +254,14 @@ function About_Us() {
             {/* Digital Companion */}
             <div className="bg-white p-8 rounded-2xl shadow-lg hover:shadow-xl transition-shadow">
               <div className="text-purple-900 text-4xl mb-6">📱</div>
-              <h3 className="text-2xl font-bold mb-4">
+              <h3 className="text-2xl text-blue-900 tracking-wide font-bold mb-4">
                 Digital Companion Platform
               </h3>
-              <p className="text-rose-600 font-medium mb-4 text-md tracking-wide">
+              <p className="text-blue-900 font-semibold mb-4 text-md tracking-wider">
                 Addressing digital exclusion & loneliness for 82% of Nigerian
                 seniors
               </p>
-              <ul className="list-check pl-5 space-y-2 text-stone-600 font-medium">
+              <ul className="list-disc pl-5 space-y-2 text-slate-500 font-medium">
                 <li>
                   Easy-to-understand and age-relevant health & wellness
                   information
@@ -277,12 +277,14 @@ function About_Us() {
             {/* Care Kits */}
             <div className="bg-white p-8 rounded-2xl shadow-lg hover:shadow-xl transition-shadow">
               <div className="text-blue-900 text-4xl mb-6">👜</div>
-              <h3 className="text-2xl font-bold mb-4">Elderly Care Kits</h3>
-              <p className="text-rose-600 font-medium mb-4 text-md tracking-wide">
+              <h3 className="text-2xl text-blue-900 tracking-wide font-bold mb-4">
+                Elderly Care Kits
+              </h3>
+              <p className="text-blue-600 font-semibold mb-4 text-md tracking-wider">
                 Preventing 60% of common senior complications & domestic
                 accidents - with practical tools in one care package
               </p>
-              <ul className="list-check pl-5 space-y-2 text-stone-600 font-medium">
+              <ul className="list-disc pl-5 space-y-2 text-slate-500 font-medium">
                 <li>Basic hygiene and essentials kits</li>
                 <li>Safety and household risk prevention kits</li>
                 <li>Cognitive stimulation & engagement kits</li>
@@ -296,13 +298,13 @@ function About_Us() {
             {/* Care Network */}
             <div className="bg-white p-8 rounded-2xl shadow-lg hover:shadow-xl transition-shadow">
               <div className="text-purple-900 text-4xl mb-6">👥</div>
-              <h3 className="text-2xl font-bold mb-4">
+              <h3 className="text-2xl text-blue-900 tracking-wide font-bold mb-4">
                 Community-Powered Care & Support Network
               </h3>
-              <p className="text-rose-600 font-medium mb-4 text-md tracking-wide">
+              <p className="text-blue-600 font-semibold mb-4 text-md tracking-wider">
                 Bridging care access gaps for 73% of diaspora families
               </p>
-              <ul className="list-check pl-5 space-y-2 text-stone-600 font-medium">
+              <ul className="list-disc pl-5 space-y-2 text-slate-500 font-medium">
                 <li>Vetted caregivers with 3-step verification</li>
                 <li>Dependable elder care services on demand</li>
                 <li>Local senior social clubs</li>
